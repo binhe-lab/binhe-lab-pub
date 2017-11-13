@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8"/>
+
+  <title>{{ page.title }}</title>
+
+  <!-- Mobile Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- RSS feed -->
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
+
+  <!-- Customized Bootstrap + Font Awesome -->
+  <link href="/css/style.css" rel="stylesheet" media="screen">
+
+  <!-- Academicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" media="screen"/>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/images/logo.png"/>
+
+  <!-- Google Analytics -->
+<!--  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-62729400-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  -->
+  <!-- Bootstrap -->
+  <script src="/js/jquery-1.11.3.min.js"></script>
+  <script src="/js/collapse.js"></script>
+</head>
+
+<body>
+
+  <!-- use navbar-inverse bg-inverse to color the background 15 sep 2017 -->
+  <nav class="navbar navbar-inverse navbar-fixed-top bg-inverse" role="navigation">
+  <div class="container">
+    <!-- Brand name, brand logo and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <!-- restore to bedford.io version
+      <div class="navbar-brand">
+      {% if page.categories.first != 'home' %} 
+        <a href="/"><img class="navbar-brand-logo" src="/images/logo.png" /></a>
+      {% endif %}
+      </div> -->
+      <button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target="#navbar-menu-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- <a class="navbar-brand" href="/">Gene Regulatory Evolution Lab</a> -->
+      <div class="navbar-brand-text">Gene Regulatory Evolution Lab</a></div>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-menu-collapse">
+      <ul class="nav navbar-nav navbar-right text-right">
+        {% if page.categories.first == 'home' %} <li class="active"> {% else %} <li> {% endif %}
+        <a href="/">Home</a></li>
+        {% if page.categories.first == 'research' %} <li class="active"> {% else %} <li> {% endif %}
+        <a href="/research/">Research</a></li>
+        {% if page.categories.first == 'papers' %} <li class="active"> {% else %} <li> {% endif %}
+        <a href="/papers/">Papers</a></li>
+        {% if page.categories.first == 'members' %} <li class="active"> {% else %} <li> {% endif %}
+	<!-- not in use, Bin He, 16 sep 2017
+        <a href="/members/">Team</a></li> {% if page.categories.first == 'news' %} <li class="active"> {% else %} <li> {% endif %}
+	-->
+        <a href="/contact/">Contact</a></li>
+        {% if page.categories.first == 'join' %} <li class="active"> {% else %} <li> {% endif %}
+        <a href="/join/">Join</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+  </nav>
+
+  <div class="container">
+    {{ content }}
+  </div>
+
+  <!-- <div class="hugespacer"></div>
+  <div class="hugespacer"></div>
+  <div class="hugespacer"></div>
+  <div class="hugespacer"></div>
+  <nav class="navbar navbar-static-bottom" role="navigation">
+      <div class="navbar-brand-centered footer">© Subramaniam Lab.<br/>All rights reserved. 2015–17.<br/>Design based on <a href="http://bedford.io" class="off">bedford.io</a></div>
+  </nav>
+  -->
+  <!-- MathJax support -->
+  <script async type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- MathJax config -->
+  <script async src="/js/mathjax.config.js"></script>
+
+</body>
+</html>

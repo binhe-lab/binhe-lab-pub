@@ -1,0 +1,72 @@
+## [12 nov 2017] duplicate the respoitory to clear way for making the lab website public
+
+_Goal_
+
+- Because the initial repo was forked from Rasi's, which means it contains not only all information in Rasi's private repo, but also all the commit record. I decide that it is not a good idea to make this repo public by duplicating the whole repo. Instead, I want to leave a private repo in my own account, preserving the initial commit history, i.e. my modification to the website based on Rasi's and Bedford.io's design. Once I'm reasonably confident that the repo no longer contains any of Rasi's information, I'll make a "bare clone" and push it to a public repo on binhe-lab organization account page, and then use Netlify to publish that.
+
+_Notes_
+
+1. I followed the [instruction here](https://help.github.com/articles/duplicating-a-repository/) and made a (private) duplicate of `binhe-lab.git` in my own GitHub account.
+1. I then repointed my local working copy's remote to the new repo.
+
+    ```bash
+    $git remote -v
+    origin  https://github.com/hezhaobin/binhe-lab.git (fetch)
+    origin  https://github.com/hezhaobin/binhe-lab.git (push)
+    ```
+1. 
+
+## [2 nov 2017] move to GitHub for deployment
+
+I want to...
+
+1. Clean up the repo to remove potentially confidential information related to rasilab.
+1. Make a bare clone of the repo, remove the history, and commit to a **public** GitHub repo.
+1. Test upgrading the jekyll version to the current one, switching to Kramdown instead of Red Carpet.
+
+## [29 oct 2017] about
+
+modified the navbar menus -- replaced "Code" with "About". Changed the `_layout/misc.html`, which is used for `/about/index.html`. Wrote a simple description of how this website came about.
+
+## [27 oct 2017] fonts & papers
+
+- I tried to copy over Hugo-Academics fonts -- the latest version of the theme stores the fonts setting in a separate `fonts` folder, which contains three themes. The default is now sans-serif for both heading and body. I stick to the "Merriweather" for body and "Lato" for heading.
+- Also modified the papers template, and added the pdf and github link for He-eLife-2017
+
+## [24 oct 2017] navbar & selected-publications
+
+_Goal_
+
+- Make the navbar collapse earlier (at wider screen size)
+- Separate the publications into selected and all categories
+
+_Reference_
+
+https://stackoverflow.com/questions/21076922/bootstrap-how-to-collapse-navbar-earlier
+
+_Notes_
+
+- added the following snippets to `css/style.less`. also reorganized the file by moving the navbar and profile related elements above the "other" section
+- adjusted `navbar-brand-centered` section, which is used to position the "navbar-brand-text" at smaller screen size.
+- also got "selected-papers" to work
+    1. each post in `papers/_post/` get the default category "papers"
+    1. by adding a `category: selected-papers` into the YAML header of my selected papers, I can override the default and thus display these in a front section, by looping over this newly created category.
+
+## [23 oct 2017] papers
+
+- adjust css, blend in bedford.io design
+-
+## [20 oct 2017] academicons
+
+- I basically hacked the "about.md" section from hugo-academic theme to the Jekyll site. However, I couldn't get Academicons to work (for Google-Scholar)
+
+- tried to mess with style.css and index.md, no luck
+
+- got it to work by adding the following to `_layout/default.html`
+
+    ```css
+    <!-- Academicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" media="screen"/>
+    ```
+
+- changed `<i class="fa fa-twitter big-icon"></i>` to `<i class="fa fa-twitter fa-2x"></i>` because `Academicons 1.8.1` appears to not support the `big-icon` property. `2x` is exactly the same in size

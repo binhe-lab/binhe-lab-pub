@@ -1,0 +1,54 @@
+---
+layout: default
+title: BinHe Lab | Research 
+categories: 
+ - research
+---
+
+<div class="hugespacer"></div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-3 col-md-offset-1">
+<a href="/papers/subramaniam-pnas-2013/">
+<img class="media-object biglogo" src="/images/papers/subramaniam-pnas-2013.png">
+</a>
+</div>
+<div class="col-md-6">
+Proteins account for the largest fraction of macromolecules in most living cells. In fast growing cells such as microorganisms and cancer cells, over a third of the nutrients and energy used by the cells goes towards making proteins. Because of this large demand on cellular resources, the rate of protein synthesis is often tightly regulated depending on nutrient levels in a cell's growth environment. Research in our lab aims to understand the molecular mechanisms and cellular design principles that enable this tight regulation.
+</div>
+</div>
+
+<div class="hugespacer"></div>
+
+<div class="row">
+<div class="col-md-offset-1 col-md-6">
+Our current research is focused on the following specific questions:
+<ul>
+<li>How is the rate of synthesis of a given protein encoded in the sequence of the corresponding messenger RNA?</li>
+<li>How does the cell accurately detect problems with the protein synthesis machinery that occur, for example, upon nutrient starvation? </li>
+<li>What is the quantitative contribution of different nutrient-sensing pathways to the regulation of protein synthesis rate?</li>
+<li>What are the commonalities and differences between microorganisms and mammalian cells with regard to the regulation of protein synthesis by nutrients?</li>
+</ul>
+</div>
+<div class="col-md-3">
+<a href="/papers/subramaniam-elife-2013/">
+<img class="media-object biglogo" src="/images/papers/subramaniam-elife-2013.png"/>
+</a>
+</div>
+</div>
+
+<div class="hugespacer"></div>
+
+<div class="row">
+<div class="col-md-3 col-md-offset-1">
+<a href="/papers/subramaniam-cell-2014/">
+<img class="media-object biglogo" src="/images/papers/subramaniam-cell-2014.png"/>
+</a>
+</div>
+<div class="col-md-6">
+Our interest in the above questions arose from our earlier observation that synonymous codon choice in messenger RNAs is a major sequence determinant of protein synthesis rate during nutrient-limited growth of bacteria. Through deep-sequencing of ribosome-protected mRNA fragments and whole-cell computational modeling, we subsequently identified a role for translational pausing and ribosome rescue factors in mediating this effect of synonymous codons. This line of research also uncovered a remarkably simple, amino acid sensing mechanism that promotes biofilm formation in bacteria. 
+</div>
+</div>
+</div>
+

@@ -1,0 +1,58 @@
+---
+layout: default
+title: The Gene Regulatory Evolution Lab
+categories:
+- home
+---
+
+<div class="hugespacer"></div>
+<div class="row">
+  <div class="col-md-5 text-right-md text-center-xs">
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+    <h1 class="low-top-margin low-line-height">Subramaniam Lab</h1>
+    <h3 class="low-top-margin">Nutrient Signaling and<br />
+    Regulation of Protein Synthesis</h3>
+    <h4>Molecular Mechanisms & Design Principles</h4>
+  </div>
+
+  <div class="col-md-3">
+    <img class="biglogo" src="/images/logo.png"/>
+  </div>
+
+  <div class="col-md-3 col-md-offset-1 col-xs-offset-2 col-xs-10">
+    <div class="smallhead">
+    <a class="off" href="/news/">News</a>
+    </div>
+  <div class="spacer"></div>
+  <div class="feedbox">
+  {% for post in site.categories.news limit:3 %}
+  
+  {% for member in site.categories.members %}
+  {% if member.title == post.author %}
+  {% assign author = member %}
+  {% endif %}
+  {% endfor %}
+  <div class="note">
+    <i class="fa fa-comment-o fa-fw"></i>
+    <a class="off" href="{{ post.url }}">
+    {{ post.title }}
+    </a>
+  </div>
+  <div class="smallspacer"></div>
+  <div class="smallnote">
+  Posted
+  {{ post.date | date_to_string }}
+  {% if author %}
+  by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
+  {% endif %}
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  {% endfor %}
+  </div>
+  <div class="smallnote">
+  <a class="off" href="/news/">more...</a>
+  </div>
+</div>
+</div>

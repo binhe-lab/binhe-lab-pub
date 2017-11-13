@@ -1,0 +1,28 @@
+---
+layout: default
+title: BinHe Lab | Members
+categories: 
+ - members
+---
+<div class="hugespacer"></div>	
+<div class="row">
+<div class="note col-md-10 col-md-offset-1" style="display:inline;">Click on pictures/names for further info. </div>
+</div>
+<div class="hugespacer"></div>	
+{% assign pages = site.categories.members | sort: "lastname" %}
+{% for member in pages %}
+    {% cycle 'add rows': '<div class="row">', nil %}
+		<div class="col-md-offset-1 col-md-4 memberbox">
+			<div class="media">
+  				<a class="pull-left" href="{{ member.url }}">
+    				<img width=170 class="media-object" src="{{ member.image }}">
+  				</a>
+ 			 	<div class="media-body">
+    				<div class="smallhead media-heading"><a href="{{ member.url }}" class="off">{{ member.name }}</a></div>
+    				<p class="note">{{ member.position }}</p>
+  				</div>
+			</div>
+        </div>	  
+    {% cycle 'close rows': nil, '</div><div class="bigspacer"></div>' %}
+{% endfor %}
+{% cycle 'close rows': nil, '</div><div class="bigspacer"></div>' %}

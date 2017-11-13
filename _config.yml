@@ -1,0 +1,68 @@
+name: Gene Regulatory Evolution Lab Research
+description: Science updates on evolution of gene regulatory networks and stress response from the He lab at U of Iowa
+url: https://binhe-lab.netlify.com
+
+#highlighter: rouge
+#markdown: kramdown
+#kramdown:
+#  input: GFM
+#  auto_ids: true
+#  syntax_highlighter: rouge
+
+markdown: redcarpet
+permalink: /:categories/:title/
+future: true
+
+redcarpet: 
+  extensions:
+   - tables
+   - no_intra_emphasis
+   - autolink
+   - superscript
+   - strikethrough
+
+# Gems
+# gems: [jekyll-paginate]
+# paginate: 6
+# paginate_path: "news/page:num"
+# paginate_category: "news"
+
+exclude:
+  - "*.branches"
+  - "*.kml"
+  - "*.log"
+  - "*.nb"
+  - "*.trees"
+  - "*.cpp"
+  - "*.h"
+  - "*.hh"
+  - "*.java"
+  - "*.jar"
+  - "*.csv"
+  - "*.tsv"
+  - "*.txt"
+  - "*.rb"
+  - "*.py"
+  - "*.class"
+  - "*.tips"
+  - "*.fasta"
+  - "*.nex"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+projects:
+  - trvrb/coaltrace
+  - trvrb/stem
+  - trvrb/PACT
+  - trvrb/dynamics-practical
+  - trvrb/antigen
+  - trvrb/haplotypes
+  - trvrb/divergence
+  - trvrb/ancestry
+  - trvrb/medium-data
+  - trvrb/flutrace
+  - blab/nextflu
+  - alvason/infectious-pulse
+  - blab/global-migration
+  - trvrb/sismid
+  - trvrb/sctrace

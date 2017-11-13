@@ -1,0 +1,50 @@
+---
+layout: default
+title: BinHe Lab | Papers
+categories: 
+ - papers
+---
+
+<div class="row">
+<div class="bigspacer"></div>
+ <div class="note col-md-8 col-md-offset-2"><i class="fa fa-envelope"></i> : Corresponding author<br/> </div>
+ <div class="note col-md-8 col-md-offset-2"><i class="fa fa-asterisk"></i> : Equal contribution<br/><br/>Click on paper titles for further info. </div>
+</div>
+<div class="bigspacer"></div>
+<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+		<h2>Selected publications</h2>
+	</div>
+</div>
+<div class="bigspacer"></div>
+{% for paper in site.categories.selected-papers %}
+    <div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<div class="media">
+ 			 	<div class="media-body">
+					<div class="papertitle"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
+					<div class="author"><p>{{ paper.authors }} &nbsp; ({{ paper.year }}) &nbsp; {{ paper.journal }}</p></div>
+  				</div>
+			</div>
+        	</div>
+    </div><div class="bigspacer"></div>
+{% endfor %}
+
+<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+		<h2>All publications</h2>
+	</div>
+</div>
+<div class="bigspacer"></div>
+{% for paper in site.categories.papers %}
+    <div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<div class="media">
+ 			 	<div class="media-body">
+					<div class="papertitle"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
+					<div class="author"><p>{{ paper.authors }}  {{ paper.journal }}</p></div>
+  				</div>
+			</div>
+        	</div>
+    </div><div class="bigspacer"></div>
+{% endfor %}
