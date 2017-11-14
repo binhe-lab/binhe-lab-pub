@@ -7,7 +7,7 @@ This website is based on [bedford.io]([GitHub repo](https://github.com/blab/blot
 To build the website locally, clone the repo with:
 
 ```
-git clone https://github.com/binhe-lab/binhe-lab.git
+git clone https://github.com/binhe-lab/binhe-lab-pub.git
 ```
 
 Then install necessary Ruby dependencies by running `bundle install` from within the `binhe-lab` directory.  After this, the site can be be built with:
@@ -18,7 +18,9 @@ bundle exec jekyll build
 
 To view the site, run `bundle exec jekyll serve` and point a browser to `http://localhost:4000/`.  More information on Jekyll can be found [here](http://jekyllrb.com/).
 
-To include projects, preprocessing scripts are necessary to clone project repos and update Jekyll metadata. This can be accomplished with:
+Not in use
+
+> To include projects, preprocessing scripts are necessary to clone project repos and update Jekyll metadata. This can be accomplished with:
 
 ```
 ruby _scripts/update-and-preprocess.rb
