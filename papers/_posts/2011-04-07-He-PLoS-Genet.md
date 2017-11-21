@@ -6,7 +6,8 @@ authors: He BZ <sup><i class="small fa fa-envelope"></i></sup>, Holloway AK, Mae
 year: 2011
 ref: He et al. 2011, PLoS Genetics
 journal: "PLoS Genet. 7(4):e1002053"
-pdf: 
+pdf: /pdfs/papers/He-pgen-2011.pdf
+supplement: /pdfs/papers/He-pgen-2011-supp.zip
 image: /images/papers/He-pgen-2011.png
 doi: 10.1371/journal.pgen.1002053
 category: selected-papers
