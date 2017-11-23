@@ -70,14 +70,15 @@
         <a href="/research/">Research</a></li>
         {% if page.categories.first == 'papers' %} <li class="active"> {% else %} <li> {% endif %}
         <a href="/papers/">Papers</a></li>
-        {% if page.categories.first == 'members' %} <li class="active"> {% else %} <li> {% endif %}
 	<!-- not in use, Bin He, 16 sep 2017
+        {% if page.categories.first == 'members' %} <li class="active"> {% else %} <li> {% endif %}
         <a href="/members/">Team</a></li> {% if page.categories.first == 'news' %} <li class="active"> {% else %} <li> {% endif %}
 	-->
+        {% if page.categories.first == 'contact' %} <li class="active"> {% else %} <li> {% endif %}
         <a href="/contact/">Contact</a></li>
         {% if page.categories.first == 'join' %} <li class="active"> {% else %} <li> {% endif %}
         <a href="/join/">Join</a></li>
-        <li><a href="/about/">About</a></li>
+	<!-- <li><a href="/about/">About</a></li> -->
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
@@ -86,13 +87,11 @@
   <div class="container">
     {{ content }}
   </div>
-
-  <!-- <div class="hugespacer"></div>
-  <div class="hugespacer"></div>
+  <!--
   <div class="hugespacer"></div>
   <div class="hugespacer"></div>
   <nav class="navbar navbar-static-bottom" role="navigation">
-      <div class="navbar-brand-centered footer">© Subramaniam Lab.<br/>All rights reserved. 2015–17.<br/>Design based on <a href="http://bedford.io" class="off">bedford.io</a></div>
+	  <div class="navbar-brand-centered footer">Design based on <a href="http://bedford.io" class="off">bedford.io</a> and <a href="http://rasilab.org" class="off">rasilab.org</a></br><a href="/about/">More about this site</a></div>
   </nav>
   -->
   <!-- MathJax support -->

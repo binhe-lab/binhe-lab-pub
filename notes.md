@@ -6,6 +6,9 @@ date: 23 oct 2017
 
 This is not a complete list of notes. I didn't start taking notes until quite late in the process. The early edits are mainly on the styling of the site, including changing the navbar elements and using inverse colors, etc.
 
+## [22 nov 2017] plan on changing the homepage
+
+Tuzi suggestion: make the homepage about the lab, not myself. Make it forward looking. Plan to use Bedford's Team template. Change the homepage to a paragraph accompanying a cartoon.
 ## [12 nov 2017] duplicate the respoitory to clear way for making the lab website public
 
 _Goal_
