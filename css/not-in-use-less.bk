@@ -1,0 +1,127 @@
+// this file contains less codes that are not used
+
+/*************************************************
+ *  Contact / borrowed from hugo-academic theme
+ **************************************************/
+
+#contact.home-section .fa-ul {
+	margin-left: 3.14285714rem; /* Must be > `fa-2x` icon size. */
+}
+
+#contact.home-section .fa-li {
+	position: absolute;
+	left: -3.14285714rem; /* Negative of `#contact.home-section .fa-ul` margin. */
+	width: 2rem; /* Match `fa-2x` icon size. */
+	top: 0.14285714em; /* Default FA value. */
+	text-align: center;
+}
+
+#contact.home-section li {
+	padding-top: 0.8rem; /* Align text with bottom of `fa-2x` icon. */
+	margin-bottom: 0.3rem;
+}
+
+#contact.home-section li:last-of-type {
+	margin-bottom: 0;
+}
+
+/**************
+  social icons
+***************/
+#profile ul.social-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+#profile .social-icon li {
+  margin-right: 10px;
+}
+
+#profile .social-icon li:last-of-type {
+  margin-right: 0;
+}
+
+#profile .social-icon li:hover {
+  transform: scale(1.2)
+}
+
+/* profile page list items */
+ul.ul-interests li {
+  font-size: 0.9rem;
+}
+
+ul.ul-edu {
+  list-style: none;
+}
+
+ul.ul-edu li {
+  position: relative;
+  padding: 0px 15px 4px 3px;
+}
+
+ul.ul-edu li .description p {
+  margin: 0;
+}
+
+ul.ul-edu li .description p.course {
+  font-size: 0.9rem;
+}
+
+ul.ul-edu li .description p.institution {
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.6);
+}
+
+/* Next/Prev pager */
+.pager a {
+	position:fixed;
+	top:50%;
+	z-index:101;
+	margin-top:-30px;
+	padding: 10px 5px 30px 5px;
+	height:20px;
+	width:20px;
+	display:block;
+	overflow:hidden;
+	transition:background-color .2s;
+	-moz-transition:background-color .2s;
+	-webkit-transition:background-color .2s;
+	color: #fff;
+}
+
+body.exhibit .pager a {
+	background-color:#fff;
+	box-shadow:rgba(0,0,0,0.25) 0px 0px 10px;
+}
+
+.pager a.prev {
+	left:0%;
+	border-radius:0px 3px 3px 0px;
+}
+
+.pager a.next {
+	right:0%;
+	border-radius:3px 0px 0px 3px;
+}
+
+.pager a,
+body.dark .pager a:hover { background-color: @gray-light; }
+
+.pager a:hover,
+body.dark .pager a,
+body.exhibit .pager a:hover { background-color: @gray-dark; }
+
+.pager .icon.prev,
+body.dark .pager a:hover .icon.prev { background-position:-80px -90px; }
+.pager .icon.next,
+body.dark .pager a:hover .icon.next { background-position:-100px -90px; }
+body.dark .pager .icon.prev,
+.pager a:hover .icon.prev { background-position:-80px -70px; }
+body.dark .pager .icon.next,
+.pager a:hover .icon.next { background-position:-100px -70px; }
+
+

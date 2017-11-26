@@ -6,6 +6,41 @@ date: 23 oct 2017
 
 This is not a complete list of notes. I didn't start taking notes until quite late in the process. The early edits are mainly on the styling of the site, including changing the navbar elements and using inverse colors, etc.
 
+## [25 nov 2017] Adjust footer
+
+### Goal
+
+Add a footer to contain "about this site" and social contact information (email etc.)
+
+### Notes
+
+- Followed [bootstrap tutorial](https://v4-alpha.getbootstrap.com/examples/sticky-footer-navbar/) to create a sticky footer using the following code
+
+    ```html
+    <footer class="footer">
+    <div class="container">
+    <span class="text-muted">Place sticky footer content here.</span>
+    </div>
+    </footer>
+    ```
+
+    And the css code
+
+    ```css
+    <footer class="footer">
+    <div class="container">
+    <span class="text-muted">Place sticky footer content here.</span>
+    </div>
+    </footer>
+    ```
+
+- 
+## [24 nov 2017] Change homepage and other style changes
+
+- After several attempts, and taking advice from tuzi, I settled on a version largely based on the Hugo-Academic profile, except the personal experiences are removed.
+- I changed the `container` class to increase the padding on both sides, which effectively sets the margin. Before that, Rasi's implementation uses small padding (25), coupled with `col-md-` settings to adjust the width of the content.
+- After changing the padding, I found the auto-collapse of the navbar encountered some problem. In particular, when the screen size is small, the padding used for the full desktop screen is obviously not suitable. So defined the corresponding `container` class under the two resolution-responsive css set.
+
 ## [22 nov 2017] plan on changing the homepage
 
 Tuzi suggestion: make the homepage about the lab, not myself. Make it forward looking. Plan to use Bedford's Team template. Change the homepage to a paragraph accompanying a cartoon.
