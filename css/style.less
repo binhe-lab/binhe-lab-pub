@@ -16,15 +16,6 @@
 @code-bg: #f8f8f8;
 @pre-bg: #f8f8f8;
 
-/* typekit */
-
-.wf-loading {
-    visibility: hidden;
-}
-.wf-active {
-	visibility: visible;
-}
-
 /* general */
 
 html {
@@ -65,8 +56,12 @@ p {
 }
 
 .container {
-  padding-left: 125px;
-  padding-right: 125px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.text-center {
+     text-align: center;
 }
 
 .center {
@@ -75,23 +70,12 @@ p {
      margin-right: auto;
 }
 
-.text-center {
-     text-align: center;
-}
-
 .center-block {
   display: block;
   margin: auto;
   vertical-align: middle;
 }
 
-.low-top-margin {
-  margin-top: 0px;
-}
-
-.low-line-height {
- line-height : 1.2;
-}
 
 /* logo */
 
@@ -106,15 +90,7 @@ p {
 	//height: 220px;
 	padding: 5px;
 	margin-top: 22px;
-  .center-block();
-}
-
-.researchlogo {
-	width: 250px;
-	height: 250px;
-	padding: 5px;
-	margin-top: 22px;
-  .center-block();
+	.center-block();
 }
 
 /* headings */
@@ -122,10 +98,9 @@ p {
 /* borrowed from Hugo-Academic theme, 19 sep 2017 */
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Helvetica', sans-serif;
-	//font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
-	margin-bottom: .5rem;
-	line-height: 1.25;
+	//margin-bottom: .5rem;
+	//line-height: 1.25;
 	color: #313131;
 	text-rendering: optimizeLegibility;
 }
@@ -189,13 +164,6 @@ a:focus {
 	/* Museo */
 }
 
-.bighead {
-	font-size: 32px;
-	font-weight: 300;
-	line-height:36px;
-	/* Museo */
-}
-
 .head {
 	font-size: 24px;
 	font-weight: 300;
@@ -217,13 +185,6 @@ a:focus {
 	/* Museo */
 }
 
-.smallnote {
-	font-size: 13px;
-	font-weight: 300;
-	line-height: 16px;
-	/* Museo */
-}
-
 .text-gray {
 	color: @gray-light;
 }
@@ -233,7 +194,6 @@ a:focus {
 }
 
 /* navbar-brand customization */
-
 /* borrowed from Hugo-Academic, 19 sep 2017 */
 
 .navbar-inverse {
@@ -243,10 +203,6 @@ a:focus {
 	text-rendering: optimizeLegibility;
 }
 /* end borrow */
-
-.navbar-brand {
-   font-size: @font-size-base;
-}
 
 .navbar-nav {
 	font-size: 20px;
@@ -265,6 +221,11 @@ a:focus {
 	font-size: 22px;
 	font-weight: bold;
 	color: #ffcc00;
+}
+
+a.navbar-brand-text:hover {
+	color: #ffdd00;
+	text-decoration: underline;
 }
 
 .navbar-brand-centered {

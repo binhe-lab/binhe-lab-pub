@@ -124,4 +124,54 @@ body.dark .pager .icon.prev,
 body.dark .pager .icon.next,
 .pager a:hover .icon.next { background-position:-100px -70px; }
 
+/* typekit */
+
+.wf-loading {
+    visibility: hidden;
+}
+.wf-active {
+	visibility: visible;
+}
+
+/* general */
+.low-top-margin {
+  margin-top: 0px;
+}
+
+.low-line-height {
+ line-height : 1.2;
+}
+
+/* logo */
+
+.researchlogo {
+	width: 250px;
+	height: 250px;
+	padding: 5px;
+	margin-top: 22px;
+  .center-block();
+}
+
+/* header */
+
+.bighead {
+	font-size: 32px;
+	font-weight: 300;
+	line-height:36px;
+	/* Museo */
+}
+
+.smallnote {
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 16px;
+	/* Museo */
+}
+
+/* navbar customization */
+
+.navbar-brand {
+   font-size: @font-size-base;
+}
+
 
