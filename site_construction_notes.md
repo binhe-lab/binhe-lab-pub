@@ -6,6 +6,10 @@ date: 23 oct 2017
 
 This is not a complete list of notes. I didn't start taking notes until quite late in the process. The early edits are mainly on the styling of the site, including changing the navbar elements and using inverse colors, etc.
 
+## [26 nov 2017] Clean up the CSS
+
+- went through the css `style.less` file and moved stuff to a file named `not-in-use`, while watching the Jekyll generator's error report (`bundle exec jekyll serve` run in a separate window).
+
 ## [25 nov 2017] Adjust footer
 
 ### Goal
@@ -34,7 +38,6 @@ Add a footer to contain "about this site" and social contact information (email 
     </footer>
     ```
 
-- 
 ## [24 nov 2017] Change homepage and other style changes
 
 - After several attempts, and taking advice from tuzi, I settled on a version largely based on the Hugo-Academic profile, except the personal experiences are removed.

@@ -1,15 +1,14 @@
 ---
 layout: member
-title: rasi
-name: Arvind “Rasi” Subramaniam
-lastname: subramaniam
+title: Bin
+name: Bin He
+lastname: He
 position: Principal Investigator
-handle: rasi
-email: rasi@fredhutch.org
-image: /images/team/arvind-rasi-subramaniam.png
-cv: /pdfs/team/arvind-rasi-subramaniam-cv.pdf
+handle: binhe
+email: bin-he@uiowa.edu
+image: /images/team/bin-he.png
+cv: /pdfs/team/bin-he-cv.pdf
 scholar: WyWK5m0AAAAJ
-linkedin: arvind-subramaniam-966b01b5
 github: rasi
 ---
 
