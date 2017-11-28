@@ -6,6 +6,12 @@ date: 23 oct 2017
 
 This is not a complete list of notes. I didn't start taking notes until quite late in the process. The early edits are mainly on the styling of the site, including changing the navbar elements and using inverse colors, etc.
 
+## [27 nov 2017] Deployment
+
+- The site is deposited on GitHub and I've set it up for deployment via [Netlify](https://netlify.com). The URL is binhe-lab.netlify.com
+
+- Today I purchased the domain name `binhe-lab.org` through [NameCheap](https://namecheap.com). I then added the custom domain name in the Netlify setting, and followed their instructions to change the "nameserver" on NameCheap account from their default to the one provided by Netlify. This will effectively allow Netlify to serve the domain, even though it was registered with NameCheap. This takes care of the redirection from the "bare domain name", i.e. "binhe-lab.org" to the full "www.binhe-lab.org".
+
 ## [26 nov 2017] Clean up the CSS
 
 - went through the css `style.less` file and moved stuff to a file named `not-in-use`, while watching the Jekyll generator's error report (`bundle exec jekyll serve` run in a separate window).
