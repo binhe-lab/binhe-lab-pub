@@ -11,18 +11,18 @@ categories:
 <div class="hugespacer"></div>	
 {% assign pages = site.categories.members | sort: "lastname" %}
 {% for member in pages %}
-    {% cycle 'add rows': '<div class="row">', nil %}
-		<div class="col-md-offset-1 col-md-4 memberbox">
-			<div class="media">
-  				<a class="pull-left" href="{{ member.url }}">
-    				<img width=170 class="media-object" src="{{ member.image }}">
-  				</a>
- 			 	<div class="media-body">
-    				<div class="smallhead media-heading"><a href="{{ member.url }}" class="off">{{ member.name }}</a></div>
-    				<p class="note">{{ member.position }}</p>
-  				</div>
+{% cycle 'add rows': '<div class="row">', nil %}
+	<div class="col-md-offset-1 col-md-5 memberbox">
+		<div class="media">
+			<a class="pull-left" href="{{ member.url }}">
+				<img width=160 class="media-object" src="{{ member.image }}">
+			</a>
+			<div class="media-body">
+				<h2 class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.name }}</a></h2>
+				<p class="note">{{ member.position }}</p>
 			</div>
-        </div>	  
-    {% cycle 'close rows': nil, '</div><div class="bigspacer"></div>' %}
+		</div>
+	</div>	  
+	{% cycle 'close rows': nil, '</div><div class="bigspacer"></div>' %}
 {% endfor %}
 {% cycle 'close rows': nil, '</div><div class="bigspacer"></div>' %}

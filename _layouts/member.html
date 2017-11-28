@@ -13,10 +13,10 @@ layout: default
 			{% if member.image %}
 			<img class="pull-left pad-right media-object" width=120 src="{{ member.image }}">
 			{% endif %}
-			<div class="media-body">
-				<div class="smallhead">
+			<div class="media-body titlebox">
+				<h2>
 					{{ member.name }}
-				</div>
+				</h2>
 				<p>
 				<h5>
 					{{ member.position }}
@@ -30,74 +30,75 @@ layout: default
 
 <div class="row">
 	<div class="col-md-3">  			
-		{% if member.cv %}		
-		<h5>
-			CV
-		</h5>	
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-file-text-o fa-fw"></i>			
-			<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
-		</div>		
-		<div class="bigspacer"></div>		
-		{% endif %}	  		
-		{% if member.email %}
-		{% assign emailarray = member.email | split: '@' %}
-		<h5>
-			Email
-		</h5>	
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-inbox fa-fw"></i>
-			{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
-		</div>		
-		<div class="bigspacer"></div>			
-		{% endif %}						
-		{% if member.github %}
-		<h5>
-			GitHub
-		</h5>	
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-github-alt fa-fw"></i>
-			<a class="off" href="https://github.com/{{ member.github }}">{{ member.github }}</a>
-		</div>		
-		<div class="bigspacer"></div>	
-		{% endif %}		
-		{% if member.scholar %}
-		<h5>
-			Google Scholar
-		</h5>	
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-book fa-fw"></i>
-			<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}">{{ member.title }}</a>
-		</div>		
-		<div class="bigspacer"></div>	
-		{% endif %}				   	
-		{% if member.linkedin %}
-		<h5>
-			LinkedIn
-		</h5>	
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-linkedin-square fa-fw"></i>
-			<a class="off" href="https://www.linkedin.com/in/{{ member.linkedin }}">{{ member.title }}</a>
-		</div>		
-		<div class="bigspacer"></div>	
-		{% endif %}				   	
-		{% if member.twitter %}		
-		<h5>
-			Twitter
-		</h5>	
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-twitter fa-fw"></i>
-			<a class="off" href="https://twitter.com/{{ member.twitter }}">{{ member.twitter }}</a>
-		</div>		
-		<div class="bigspacer"></div>				
-		{% endif %}	
-	</div>
+		<div class="glyphbox note">
+			{% if member.cv %}		
+			<div class="smallhead">
+				CV
+			</div>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-file-text-o fa-fw"></i>			
+				<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
+			</div>		
+			{% endif %}	  		
+		</div>
+			{% if member.email %}
+			{% assign emailarray = member.email | split: '@' %}
+			<h5>
+				Email
+			</h5>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-inbox fa-fw"></i>
+				{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
+			</div>		
+			<div class="bigspacer"></div>			
+			{% endif %}						
+			{% if member.github %}
+			<h5>
+				GitHub
+			</h5>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-github-alt fa-fw"></i>
+				<a class="off" href="https://github.com/{{ member.github }}">{{ member.github }}</a>
+			</div>		
+			<div class="bigspacer"></div>	
+			{% endif %}		
+			{% if member.scholar %}
+			<h5>
+				Google Scholar
+			</h5>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-book fa-fw"></i>
+				<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}">{{ member.title }}</a>
+			</div>		
+			<div class="bigspacer"></div>	
+			{% endif %}				   	
+			{% if member.linkedin %}
+			<h5>
+				LinkedIn
+			</h5>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-linkedin-square fa-fw"></i>
+				<a class="off" href="https://www.linkedin.com/in/{{ member.linkedin }}">{{ member.title }}</a>
+			</div>		
+			<div class="bigspacer"></div>	
+			{% endif %}				   	
+			{% if member.twitter %}		
+			<h5>
+				Twitter
+			</h5>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-twitter fa-fw"></i>
+				<a class="off" href="https://twitter.com/{{ member.twitter }}">{{ member.twitter }}</a>
+			</div>		
+			<div class="bigspacer"></div>				
+			{% endif %}	
+		</div>
 	<div class="col-md-8">	
 		<div class="post">
 			{{ content }}
