@@ -6,6 +6,9 @@ date: 23 oct 2017
 
 This is not a complete list of notes. I didn't start taking notes until quite late in the process. The early edits are mainly on the styling of the site, including changing the navbar elements and using inverse colors, etc.
 
+## [28 nov 2017] Finish team member view
+
+
 ## [27 nov 2017] Deployment
 
 - The site is deposited on GitHub and I've set it up for deployment via [Netlify](https://netlify.com). The URL is binhe-lab.netlify.com
