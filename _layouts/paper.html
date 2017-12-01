@@ -27,7 +27,12 @@ layout: default
 <div class="bigspacer"></div>
 
 <div class="row">
-	<div class="col-md-3">
+	<div class="col-md-8 col-md-push-3">	
+		<div class="post">
+			{{ content }}
+		</div>	
+	</div>			
+	<div class="col-md-3 col-md-pull-8">
 		<div class="bigspacer"></div>
 		<div class="glyphbox note">
 			{% if page.pdf %}		
@@ -76,11 +81,6 @@ layout: default
 			{% endif %}
 			</div>
 	</div>
-	<div class="col-md-8">	
-		<div class="post">
-			{{ content }}
-		</div>	
-	</div>			
 	<!--<div class="col-md-3">	
 		{% if page.image %}
 		<div class="bigspacer"></div>

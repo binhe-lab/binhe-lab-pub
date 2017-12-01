@@ -22,7 +22,7 @@
   <link rel="shortcut icon" href="/images/logo.png"/>
 
   <!-- Google Analytics -->
-<!--  <script>
+	<!--  <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -31,8 +31,7 @@
     ga('create', 'UA-62729400-1', 'auto');
     ga('send', 'pageview');
 
-  </script>
-  -->
+  </script> -->
   <!-- Bootstrap -->
   <script src="/js/jquery-1.11.3.min.js"></script>
   <script src="/js/collapse.js"></script>
@@ -41,9 +40,8 @@
 <body>
 
   <!-- use navbar-inverse bg-inverse to color the background 15 sep 2017 -->
-  <nav class="navbar navbar-inverse navbar-fixed-top bg-inverse" role="navigation">
+  <nav class="navbar navbar-inverse navbar-static-top bg-inverse" role="navigation">
   <div class="container">
-	  <!--<div class="col-md-10 col-md-offset-1"> -->
     <!-- Brand name, brand logo and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <!-- restore to bedford.io version
@@ -58,15 +56,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand-text" href="/">Gene Regulatory Evolution Lab</a>
-      <!-- <div class="navbar-brand-text">Gene Regulatory Evolution Lab</a></div>-->
+      <a class="navbar-brand-text" href="/">Gene Regulatory Evolution</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-menu-collapse">
       <ul class="nav navbar-nav navbar-right text-right">
-				<!-- {% if page.categories.first == 'home' %} <li class="active"> {% else %} <li> {% endif %}
-        <a href="/">Home</a></li> -->
+				{% if page.categories.first == 'home' %} <li class="active"> {% else %} <li> {% endif %}
+        <a href="/">Home</a></li>
         {% if page.categories.first == 'research' %} <li class="active"> {% else %} <li> {% endif %}
         <a href="/research/">Research</a></li>
         {% if page.categories.first == 'papers' %} <li class="active"> {% else %} <li> {% endif %}

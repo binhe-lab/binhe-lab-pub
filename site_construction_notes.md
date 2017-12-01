@@ -6,6 +6,12 @@ date: 23 oct 2017
 
 This is not a complete list of notes. I didn't start taking notes until quite late in the process. The early edits are mainly on the styling of the site, including changing the navbar elements and using inverse colors, etc.
 
+## [30 nov 2017] Fill in my bio and adjust mobile order for member view
+
+- wrote a short bio for myself
+- used "col-md-pull-*" and "col-md-push-*" to reorder the left side links and the right side bio, so that on mobile device, the bio will come before the links. To achieve this, first move the bio content before the links section, then use "col-md-8 col-md-push-3" to make it "pushed to the right by 3 columns". Similarly, use "col-md-3 col-md-pull-8" to "pull" the links to the left on a large device (desktop). On the mobile device, the order will follow the bio-links without the pull and push.
+- Similarly changed the design for papers
+
 ## [28 nov 2017] Finish team member view
 
 
