@@ -2,7 +2,7 @@
 layout: paper
 title: Emergence, Retention and Selection&#58 A Trilogy of Origination for Functional <em>De Novo</em> Proteins from Ancestral LncRNAs in Primates
 image: 
-authors: Chen JY <sup><i class="small fa fa-asterisk"></i></sup>, Shen QS <sup><i class="small fa fa-asterisk"></i></sup>, Zhou WZ <sup><i class="small fa fa-asterisk"></i></sup>, Peng J, He BZ, Li Y, Liu CJ, Luan X, Ding W, Li S, Chen C, Tan BC, Zhang YE, He A <sup><i class="small fa fa-envelope"></i></sup>, Li CY <sup><i class="small fa fa-envelope"></i></sup>
+authors: Chen JY <sup><i class="small fa fa-asterisk"></i></sup>, Shen QS <sup><i class="small fa fa-asterisk"></i></sup>, Zhou WZ <sup><i class="small fa fa-asterisk"></i></sup>, Peng J, <strong>He BZ</strong>, Li Y, Liu CJ, Luan X, Ding W, Li S, Chen C, Tan BC, Zhang YE, He A <sup><i class="small fa fa-envelope"></i></sup>, Li CY <sup><i class="small fa fa-envelope"></i></sup>
 year: 2015
 ref: Chen et al. 2015, PLoS Genet
 journal: "PLoS Genet. 11(7): e1005391"

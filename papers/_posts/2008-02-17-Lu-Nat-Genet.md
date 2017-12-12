@@ -3,7 +3,7 @@ layout: paper
 title: The birth and death of microRNA genes in <em>Drosophila</em>
 image: 
 authors: Lu J, Shen Y, Wu Q, Kumar S, <strong>He B</strong>, Shi S, Carthew RW, Wang SM <sup><i class="fa fa-envelope"></i></sup>, Wu CI <sup><i class="fa fa-envelope"></i></sup>.
-year: 2018
+year: 2008
 ref: Lu et al. 2008, Nat Genet.
 journal: "Nat Genet. 40(3):351-5"
 pdf: /pdfs/papers/Lu-ng-2008.pdf

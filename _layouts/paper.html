@@ -7,18 +7,21 @@ layout: default
 <div class="row">
 	<div class="col-md-12">
 		<div class="media">
+			<!-- no image shown
+			{% if page.image %}
+			<img class="pull-left pad-right media-object" src="{{ page.image }}">
+			{% endif %}
+			-->
 			<div class="media-body titlebox">
 				<div class="title media-heading">
 					{{ page.title }}
 				</div>
 				<p>
-				<!-- <div class="smallhead"> -->
 				<h5>
 					{{ page.authors }}
 					&nbsp{{ page.year }}&nbsp
 					{{ page.journal }}
 				</h5>
-				<!-- </div> -->
 			</div>
 		</div>
 	</div>				
@@ -66,6 +69,17 @@ layout: default
 				<div class="smallspacer"></div>
 				<i class="fa fa-external-link fa-fw"></i>
 				<a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
+			</div>		
+			<div class="bigspacer"></div>							
+			{% endif %}				
+			{% if page.link %}
+			<div class="smallhead">
+				Link
+			</div>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="{{ page.link }}">{{ page.link }}</a>
 			</div>		
 			<div class="bigspacer"></div>							
 			{% endif %}				
