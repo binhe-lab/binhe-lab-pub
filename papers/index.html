@@ -1,50 +1,31 @@
 ---
 layout: default
-title: BinHe Lab | Papers
+title: GRE Lab | Papers
 categories: 
  - papers
 ---
 
-<div class="row">
+<div class="note"><i class="fa fa-envelope"></i> : Corresponding author<br/> </div>
+<div class="note"><i class="fa fa-asterisk"></i> : Equal contribution<br/><br/>Click on paper titles for further info. </div>
+
 <div class="bigspacer"></div>
- <div class="note col-md-10 col-md-offset-1"><i class="fa fa-envelope"></i> : Corresponding author<br/> </div>
- <div class="note col-md-10 col-md-offset-1"><i class="fa fa-asterisk"></i> : Equal contribution<br/><br/>Click on paper titles for further info. </div>
-</div>
+
+<h2>Selected publications</h2>
+
 <div class="bigspacer"></div>
-<div class="row">
-	<div class="col-md-10 col-md-offset-1">
-		<h2>Selected publications</h2>
-	</div>
-</div>
-<div class="bigspacer"></div>
+
 {% for paper in site.categories.selected-papers %}
-<div class="row">
-	<div class="col-md-10 col-md-offset-1">
-		<div class="media">
-			<div class="media-body">
-				<div class="papertitle"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-				<div class="author"><p>{{ paper.authors }} &nbsp; ({{ paper.year }}) &nbsp; {{ paper.journal }}</p></div>
-			</div>
-		</div>
-	</div>
-</div><div class="bigspacer"></div>
+			<div class="papertitle"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
+			<div class="author"><p>{{ paper.authors }} &nbsp; ({{ paper.year }}) &nbsp; {{ paper.journal }}</p></div>
+<div class="bigspacer"></div>
 {% endfor %}
 
-<div class="row">
-	<div class="col-md-10 col-md-offset-1">
-		<h2>All publications</h2>
-	</div>
-</div>
+<h2>All publications</h2>
+
 <div class="bigspacer"></div>
+
 {% for paper in site.categories.papers %}
-    <div class="row">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="media">
- 			 	<div class="media-body">
-					<div class="papertitle"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-					<div class="author"><p>{{ paper.authors }} &nbsp; ({{ paper.year }}) &nbsp; {{ paper.journal }}</p></div>
-  				</div>
-			</div>
-        	</div>
-    </div><div class="bigspacer"></div>
+<div class="papertitle"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
+<div class="author"><p>{{ paper.authors }} &nbsp; ({{ paper.year }}) &nbsp; {{ paper.journal }}</p></div>
+<div class="bigspacer"></div>
 {% endfor %}
