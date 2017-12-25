@@ -7,8 +7,14 @@ categories:
 
 <img style="float: left; padding-right:20px;" src="/images/UIowa_BBE.jpg">
 
-As a junior PI, I plan to grow my lab slowly and will work closely with members of the lab. I'm looking for both graduate students (MS and PhD) and research technicians who are curious, responsible and motivated. In addition to those qualities, I expect scientific integrity and honesty. In return, you can expect Prior experience with microbiology genetics, R programming and genomics experiments are desirable but not required. As long as you are interested in what we are doing, and serious about doing reproducible science, you are in!
+As a junior PI, I plan to grow my lab slowly and expect to work closely **[with](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004387)** members of the lab. I'm looking for both graduate students (MS and PhD) and research technicians who are curious, responsible and motivated. Here is [more](/join/expect) on what I expect of you and what you can expect from me. 
+
+Prior experience with microbiology genetics, R programming and genomics experiments are desirable but not required. As long as you are interested in what we are doing, and serious about doing reproducible science, you are in!
 
 ## Graduate students
 
+I'm affiliated with the iBio graduate program in the Biology Department at the University of Iowa. Please check the [website](https://biology.uiowa.edu/ibio) for details on requirements and application deadlines. Contacts about research interests are welcome.
+
 ## Research technician
+
+Both current undergraduate students seeking to work/study or for research credits, and recently graduated college/master students looking for more research experiences, are encouraged to directly contact me via email (bin-he # uiowa.edu). Please send a 1-page statement of research interests, CV and contact information for three references.
