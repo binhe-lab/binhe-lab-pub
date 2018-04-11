@@ -63,15 +63,17 @@
     <div class="collapse navbar-collapse" id="navbar-menu-collapse">
       <ul class="nav navbar-nav navbar-right text-right">
 				{% if page.categories.first == 'home' %} <li class="active"> {% else %} <li> {% endif %}
-        <a href="/">Home</a></li>
-        {% if page.categories.first == 'research' %} <li class="active"> {% else %} <li> {% endif %}
+        <!-- <a href="/">Home</a></li>
+					{% if page.categories.first == 'research' %} <li class="active"> {% else %} <li> {% endif %} -->
         <a href="/research/">Research</a></li>
         {% if page.categories.first == 'papers' %} <li class="active"> {% else %} <li> {% endif %}
         <a href="/papers/">Papers</a></li>
         {% if page.categories.first == 'members' %} <li class="active"> {% else %} <li> {% endif %}
         <a href="/members/">Team</a></li> {% if page.categories.first == 'news' %} <li class="active"> {% else %} <li> {% endif %}
         {% if page.categories.first == 'join' %} <li class="active"> {% else %} <li> {% endif %}
-        <a href="/join/">Join</a></li>
+        <a href="/misc/join/">Join</a></li>
+        {% if page.categories.first == 'news' %} <li class="active"> {% else %} <li> {% endif %}
+        <a href="/news/">News</a></li>
 				<!--
         {% if page.categories.first == 'contact' %} <li class="active"> {% else %} <li> {% endif %}
 						<a href="/contact/">Contact</a></li> -->
@@ -99,7 +101,7 @@
 	<div class="hugespacer"></div>
   <footer class="footer">
     <div class="container">
-      <span class="text-muted;">Powered by <a href="https://jekyllrb.com/" class="off">Jekyll</a>. Licensed by <a href="https://opensource.org/licenses/MIT" class="off">MIT</a>. More <a href="/about/" class="off">about</a> this site.</span>
+      <span class="text-muted;">Powered by <a href="https://jekyllrb.com/" class="off">Jekyll</a> / Licensed by <a href="https://opensource.org/licenses/MIT" class="off">MIT</a> / More <a href="/misc/about" class="off">About</a> this site.</span>
 
 			<!-- not in use 28 nov 2017
 			<span style="float:right;">
