@@ -1,6 +1,6 @@
 # Gene Regulatory Evolution Lab (PI: Bin He) website
 
-This website is based on [bedford.io]([GitHub repo](https://github.com/blab/blotter)) with modifications made by [Rasi Subramanium](rasilab.org). I further customized the site by incorporating elements from the [hugo-academic theme](https://themes.gohugo.io/academic/).
+This website is based on <http://bedford.io> ([GitHub repo](https://github.com/blab/blotter)) with modifications made by [Rasi Subramanium](http://rasilab.org). I further customized the site by incorporating elements from the [hugo-academic theme](https://themes.gohugo.io/academic/).
 
 ## Build site
 
