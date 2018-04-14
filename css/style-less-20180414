@@ -1,0 +1,570 @@
+---
+---
+
+@import "/css/bootstrap/bootstrap.less";
+@import "/css/font-awesome/font-awesome.less";
+@fa-font-path: "font";
+@font-size-base: 18px;
+@brand-primary: #DD2D2D;
+@line-height-base: 1.6;
+@navbar-height: 71px;
+@navbar-margin-bottom: 30px;
+@code-color: #586E75;
+@pre-color: #586E75;
+@well-bg: #f8f8f8;
+@code-bg: #f8f8f8;
+@pre-bg: #f8f8f8;
+
+/* general */
+
+html {
+	font-family: 'Merriweather', serif;
+	//font-family: Roboto, sans-serif;
+	font-size: 20px;
+	color: rgba(0.1,0.1,0.1,0.85);
+	line-height: 1.35;
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	font-family: inherit;
+	font-size: 1rem;
+	line-height: inherit;
+	color: inherit;
+	//margin-top: @navbar-height * 1.75; /* Offset body content by navbar height. */
+	margin-bottom: 60px; /* leave room for footer */
+	padding-top: 0;
+	counter-reset: captions;
+}
+
+/* Body text */
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.text-center {
+     text-align: center;
+}
+
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.center-block {
+  display: block;
+  margin: auto;
+  vertical-align: middle;
+}
+
+
+/* logo */
+
+.logo {
+	width: 60px;
+	height: 60px;
+	padding: 5px;
+}
+
+.biglogo {
+	width: 230px;
+	//height: 220px;
+	padding: 5px;
+	margin-top: 22px;
+	.center-block();
+}
+
+/* headings */
+
+/* borrowed from Hugo-Academic theme, 19 sep 2017 */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 400;
+	//margin-bottom: .5rem;
+	//line-height: 1.25;
+	color: #313131;
+	text-rendering: optimizeLegibility;
+}
+h1 {
+	margin-top: 0;
+	font-size: 2rem;
+}
+h2 {
+	margin-top: 1rem;
+	font-size: 1.35rem;
+	font-weight: 700;
+}
+h3 {
+	font-weight: 700;
+	margin-top: 1.5rem;
+	font-size: 1.25rem;
+}
+h4 {
+	font-weight: 700;
+	margin-top: 1.1rem;
+	font-size: 1rem;
+}
+h5 {
+	font-weight: 700;
+	//font-style: italic;
+	margin-top: 1rem;
+	font-size: 0.9rem;
+}
+h6 {
+	font-weight: 300;
+	margin-top: 1rem;
+	font-size: 0.9rem;
+}
+
+h3.article-title a:hover {
+	color: #191919;
+	text-decoration: none;
+	transition: color 0.6s ease;
+}
+
+
+a:hover,
+a:focus {
+	color: #a50500;
+}
+
+.papertitle, .newstitle, .author, .title, .abstract, .head, .smallhead, .note {
+	font-family: 'Helvetica', sans-serif;
+	color: rgba(0,0,0,1);
+}
+
+.papertitle {
+	font-size: 19px;
+	font-weight: 300;
+	line-height: 23px;
+	padding-bottom: 12px;
+}
+
+.newstitle {
+	font-size: 1.1rem;
+	font-weight: 700;
+	line-height: 23px;
+	padding-bottom: 12px;
+	color: #313131;
+}
+
+.author {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 23px;
+}
+
+.title { /* used for title on each paper's individual page */
+	font-size: 24px;
+	line-height: 35px;
+	font-weight: 400;
+}
+
+/* paper abstract body text */
+.abstract {
+	font-family: "Helvetica", sans-serif;
+	font-weight: 300;
+	font-size: .9rem;
+	color: rgba(0,0,0,0.9);
+	line-height: 1.5;
+}
+
+
+.head {
+	font-size: 24px;
+	font-weight: 300;
+	line-height:30px;
+}
+
+.smallhead {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.note {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 18px;
+	word-wrap: break-word;
+}
+
+// .text-gray {
+// 	color: @gray-light;
+// }
+// 
+// .text-dark-gray {
+// 	color: @gray;
+// }
+
+/* navbar-brand customization */
+/* borrowed from Hugo-Academic, 19 sep 2017 */
+
+.navbar-inverse {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 400;
+	color: rgba(0,0,0,0.9);
+	line-height: 1.25;
+	text-rendering: optimizeLegibility;
+}
+/* end borrow */
+
+.navbar-nav {
+	font-size: 20px;
+	font-weight: 100;
+	/* Museo*/
+	/* from bedford.io */
+}
+
+.navbar-toggle {
+	background-color: #191919;
+	border: 2px solid #000;
+}
+
+.navbar-brand-text {
+	.navbar-brand();
+	font-size: 22px;
+	font-weight: bold;
+	color: #ffcc00;
+}
+
+a.navbar-brand-text:hover {
+	color: #ffdd00;
+	text-decoration: underline;
+}
+
+.navbar-brand-centered {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80%;
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    //margin-left: -125px;
+}
+
+/* Cause navbar to collapse at 990px instead of 768px, 24 oct 2017 HB */
+/* Cause navbar to collapse at 1201px instead of 768px, 24 nov 2017 HB */
+/* reference: https://stackoverflow.com/questions/21076922/bootstrap-how-to-collapse-navbar-earlier */
+
+@media (min-width: 768px) and (max-width: 1201px) {
+	.navbar-collapse.collapse {
+		display: none !important;
+	}
+	.navbar-collapse.collapse.in {
+		display: block !important;
+	}
+	.navbar-header .collapse, .navbar-toggle {
+		display:block !important;
+	}
+	.navbar-header {
+		float:none;
+	}
+	.container {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+}
+
+/* Adaptive text size and margin below navbar for phones*/
+
+@media all and (max-width: @screen-tablet) {
+	h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
+	.smallhead, .note, {
+		font-size: 95%;	
+	}
+	.papertitle, .author {
+		font-size: 195%;
+	}
+	.title {
+		font-size: 950%;
+		line-height: 30px;
+	}
+	h1, .h1, .smallhead {
+		font-weight: 700;
+	}
+	h4, .h4 {
+		font-style: italic;
+	}
+	.container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.navbar-brand-text {
+		//.navbar-brand-centered();
+	}
+}
+
+.footer {
+	font-size: 0.8rem;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px; /* Vertically center the text there */
+	background-color: #e5e5e5;
+	/* center text */
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer a {
+	color: #707070;
+	text-decoration: underline;
+}
+
+.footer a:hover {
+	color: #005181;
+}
+
+
+/*************************************************
+ *  Biography -- borrowed from hugo-academic theme
+ **************************************************/
+
+#profile {
+  text-align: center;
+  padding: 30px 10px;
+  position: relative;
+}
+
+#profile .portrait {
+  background-image: url('../images/portrait.jpg');
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+
+#profile .portrait-title h2 {
+  font-size: 1.35rem;
+  font-weight: 300;
+  color: #000000;
+  margin: 20px 0 10px 0;
+}
+
+#profile .portrait-title h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #494949;
+  margin: 0px 0 8px 0;
+}
+
+#profile .portrait-title p {
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  color: #494949;
+}
+
+/* Social icon */
+#social {
+	position: relative;
+}
+
+#social ul.social-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+}
+
+#social .social-icon li {
+  margin-right: 10px;
+}
+
+#social .social-icon li:last-of-type {
+  margin-right: 0;
+}
+
+#social .social-icon li:hover {
+  transform: scale(1.2)
+}
+
+/*********
+ * other *
+ *********/
+
+.hugespacer {
+	height: 40px;
+}
+
+.bigspacer {
+	height: 20px;
+}
+
+.spacer {
+	height: 10px;
+}
+
+.smallspacer {
+	height: 5px;
+}
+
+a.off {
+	color: inherit;
+}
+
+code.has-jax {
+	background: inherit;
+	color: inherit;
+}
+
+pre {
+    overflow-x: auto;
+}
+
+pre code {
+    overflow-wrap: normal;
+    white-space: pre;
+}
+
+table {
+	.table;
+	.table-striped;
+}
+
+img {
+	.img-responsive;
+}
+
+img.offset {
+	float: right;
+	margin: 12px 0px 10px 15px;
+}
+
+img.avatar {
+	width: 20px;
+}
+
+.post img {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+blockquote {
+	.text-gray;
+	p {
+    font-size: (@font-size-base * 1.00);
+    }
+}
+
+.breadcrumb {
+	padding: 0px 0px;
+	background-color: @body-bg;
+	> li {
+		&+li:before {
+			padding: 0px;
+		}
+		&+li:after {
+			padding: 0px;
+		}
+	}
+}
+
+.feedbox {
+    overflow: hidden;
+	-webkit-mask-image: -webkit-gradient(linear, left 85%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+/*	-webkit-box-shadow: inset 0 -30px 10px -10px white; */
+/*	   -moz-box-shadow: inset 0 -30px 10px -10px white; */
+/*	        box-shadow: inset 0 -30px 10px -10px white; */
+}
+
+.postbox {
+    min-height: 80px;
+}
+
+.paperbox {
+    min-height: 140px;
+}
+
+.projectbox {
+    min-height: 130px;
+}
+
+.memberbox {
+    min-height: 200px;
+}
+
+.titlebox {
+	min-width: 300px;
+}
+
+.handlebox {
+	height: 20px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.pad-top {
+	padding-top: 60px;
+}
+
+.pad-right {
+	padding-right: 10px;
+}
+
+.pad-left {
+	padding-left: 10px;
+}
+
+#footer {
+	height: 80px;
+}
+
+.footernav {
+	.note;
+	.text-dark-gray;
+	text-align: center;
+}
+
+/* Defaults */
+.text-center-sm,
+.text-center-md,
+.text-center-lg,
+.text-right-sm,
+.text-right-md,
+.text-right-lg { text-align: inherit; }
+
+/* Define xs styles after defaults so they take precedence */
+.text-center-xs { text-align: center; }
+.text-right-xs { text-align: right; }
+
+/* Small grid */
+@media all and (min-width: @screen-tablet) {
+  .text-center-sm, .text-center-xs { text-align: center; }
+  .text-right-sm, .text-right-xs { text-align: right; }
+}
+
+/* Medium grid */
+@media all and (min-width: @screen-desktop) {
+  .text-center-md, .text-center-sm, .text-center-xs { text-align: center; }
+  .text-right-md, .text-right-sm, .text-right-xs { text-align: right; }
+}
+
+/* Large grid */
+@media all and (min-width: @screen-lg-desktop) {
+  .text-center-lg, .text-center-md, .text-center-sm, .text-center-xs {
+    text-align: center;
+  }
+  .text-right-lg, .text-right-md, .text-right-sm, .text-right-xs {
+    text-align: right;
+  }
+}
