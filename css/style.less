@@ -21,15 +21,15 @@
 html {
 	font-family: 'Merriweather', serif;
 	//font-family: Roboto, sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	color: rgba(0.1,0.1,0.1,0.85);
 	line-height: 1.35;
 	position: relative;
 	min-height: 100%;
 }
-@media screen and (min-width: 58em) {
+@media all and (max-width: 58em) {
 	html {
-		font-size: 20px;
+		font-size: 16px;
 	}
 }
 
@@ -256,6 +256,8 @@ a.navbar-brand-text:hover {
     background-color: transparent;
     //margin-left: -125px;
 }
+
+/* Adaptive text size and margin below navbar for phones*/
 
 /* Cause navbar to collapse at 990px instead of 768px, 24 oct 2017 HB */
 /* Cause navbar to collapse at 1201px instead of 768px, 24 nov 2017 HB */
