@@ -63,8 +63,8 @@
     <div class="collapse navbar-collapse" id="navbar-menu-collapse">
       <ul class="nav navbar-nav navbar-right text-right">
 				{% if page.categories.first == 'home' %} <li class="active"> {% else %} <li> {% endif %}
-        <!-- <a href="/">Home</a></li>
-					{% if page.categories.first == 'research' %} <li class="active"> {% else %} <li> {% endif %} -->
+        <a href="/">Home</a></li>
+			  {% if page.categories.first == 'research' %} <li class="active"> {% else %} <li> {% endif %}
         <a href="/research/">Research</a></li>
         {% if page.categories.first == 'papers' %} <li class="active"> {% else %} <li> {% endif %}
         <a href="/papers/">Papers</a></li>
