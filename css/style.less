@@ -19,11 +19,11 @@
 /* general */
 
 html {
-	font-family: 'Merriweather', serif;
-	//font-family: Roboto, sans-serif;
+	//font-family: 'Merriweather', serif;
+	font-family: Roboto, sans-serif;
 	font-size: 20px;
-	color: rgba(0.1,0.1,0.1,0.85);
-	line-height: 1.35;
+	color: rgba(0,0,0,0.8);
+	line-height: 1.4;
 	position: relative;
 	min-height: 100%;
 }
@@ -35,13 +35,19 @@ html {
 
 body {
 	font-family: inherit;
-	font-size: 1rem;
+	font-size: .9rem;
 	line-height: inherit;
 	color: inherit;
 	//margin-top: @navbar-height * 1.75; /* Offset body content by navbar height. */
 	margin-bottom: 60px; /* leave room for footer */
 	padding-top: 0;
 	counter-reset: captions;
+}
+
+/* list */
+ol {
+	padding-left: 10px;
+	margin: 10px;
 }
 
 /* Body text */
@@ -58,8 +64,8 @@ p {
 /* paper abstract body text */
 .abstract {
 	font-family: "Helvetica", sans-serif;
-	font-weight: 300;
 	font-size: .9rem;
+	font-weight: 300;
 	color: rgba(0,0,0,0.9);
 	line-height: 1.5;
 }
@@ -129,7 +135,6 @@ h4 {
 }
 h5 {
 	font-weight: 700;
-	font-style: italic;
 	margin-top: 1rem;
 	font-size: 0.9rem;
 }
@@ -157,7 +162,7 @@ a:focus {
 }
 
 .papertitle {
-	font-size: 19px;
+	font-size: .95rem;
 	font-weight: 300;
 	line-height: 23px;
 	padding-bottom: 12px;
@@ -172,31 +177,31 @@ a:focus {
 }
 
 .author {
-	font-size: 15px;
+	font-size: .75rem;
 	font-weight: 300;
 	line-height: 23px;
 }
 
 .title { /* used for title on each paper's individual page */
-	font-size: 24px;
+	font-size: 1.2rem;
 	line-height: 40px;
 	font-weight: 300;
 }
 
 .head {
-	font-size: 24px;
+	font-size: 1.2rem;
 	font-weight: 300;
 	line-height:30px;
 }
 
 .smallhead {
-	font-size: 17px;
+	font-size: .85rem;
 	font-weight: 400;
 	line-height: 30px;
 }
 
 .note {
-	font-size: 16px;
+	font-size: .8rem;
 	font-weight: 300;
 	line-height: 18px;
 	word-wrap: break-word;
