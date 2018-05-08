@@ -50,6 +50,8 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
 
+exclude: [vendor]
+
 projects:
   - trvrb/coaltrace
   - trvrb/stem

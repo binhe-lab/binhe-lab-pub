@@ -13,3 +13,7 @@ scripts/
 
 # Jekyll metadata (not in the published site)
 .jekyll-metadata
+
+# Bundle installation
+vendor/
+.bundle/
