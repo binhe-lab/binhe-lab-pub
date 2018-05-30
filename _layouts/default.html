@@ -62,16 +62,16 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-menu-collapse">
       <ul class="nav navbar-nav navbar-right text-right">
-				{% if page.categories.first == 'home' %} <li class="active"> {% else %} <li> {% endif %}
-        <a href="/">Home</a></li>
+				<!--{% if page.categories.first == 'home' %} <li class="active"> {% else %} <li> {% endif %}
+				<a href="/">Home</a></li>-->
 			  {% if page.categories.first == 'research' %} <li class="active"> {% else %} <li> {% endif %}
         <a href="/research/">Research</a></li>
         {% if page.categories.first == 'papers' %} <li class="active"> {% else %} <li> {% endif %}
         <a href="/papers/">Papers</a></li>
         {% if page.categories.first == 'members' %} <li class="active"> {% else %} <li> {% endif %}
-        <a href="/members/">Team</a></li> {% if page.categories.first == 'news' %} <li class="active"> {% else %} <li> {% endif %}
-        {% if page.categories.first == 'join' %} <li class="active"> {% else %} <li> {% endif %}
-        <a href="/misc/join">Join</a></li>
+        <a href="/members/">Team / Join</a></li> {% if page.categories.first == 'news' %} <li class="active"> {% else %} <li> {% endif %}
+        <!--{% if page.categories.first == 'join' %} <li class="active"> {% else %} <li> {% endif %}
+				<a href="/misc/join">Join</a></li>-->
         {% if page.categories.first == 'news' %} <li class="active"> {% else %} <li> {% endif %}
         <a href="/news/">News</a></li>
 				<!--
