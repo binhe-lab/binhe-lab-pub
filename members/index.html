@@ -25,18 +25,45 @@ categories:
 {% for member in pages %}
   {% if member.alumni != true %}
     {% cycle 'add rows': '<div class="row">', nil, nil %}
-			<div class="col-md-4 memberbox">
-				<div class="media">
-					<a class="pull-left" href="{{ member.url }}">
-						<img width=160 class="media-object" src="{{ member.image }}">
-					</a>
-					<div class="media-body">
-						<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.name }}</a></div>
-						<p class="note">{{ member.position }}</p>
-					</div>
-				</div>
-			</div>	  
-	  {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
+	<div class="col-md-4 memberbox">
+	  <div class="media">
+	    <a class="pull-left" href="{{ member.url }}">
+	      <img width=160 class="media-object" src="{{ member.image }}">
+	    </a>
+	    <div class="media-body">
+	      <div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.name }}</a></div>
+	      <p class="note">{{ member.position }}</p>
+	    </div>
+	  </div>
+	</div>	  
+    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
   {% endif %}
 {% endfor %}
 {% cycle 'close rows': nil, '</div><div class="bigspacer"></div>' %}
+
+<div class="row">
+	<div class="col-md-12">
+		<h2>
+			Lab alumni
+		</h2>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+{% assign pages = site.categories.members | sort: "lastname" %}
+{% for member in pages %}
+  {% if member.alumni == true %}
+    {% cycle 'add rows 2': '<div class="row">', nil, nil %}
+	<div class="col-md-4 memberbox">
+	  <div class="media">
+	    <div class="media-body">
+	      <div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.name }}</a></div>
+	      <p class="note">{{ member.position }}</p>
+	    </div>
+	  </div>
+	</div>	  
+    {% cycle 'close rows 2': nil, nil, '</div><div class="bigspacer"></div>' %}
+  {% endif %}
+{% endfor %}
+{% cycle 'close rows 2': nil, '</div><div class="bigspacer"></div>' %}
