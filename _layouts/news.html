@@ -1,0 +1,49 @@
+---
+layout: default
+---
+{% for member in site.categories.members %}
+	{% if member.title == page.author %}
+		{% assign author = member %}
+	{% endif %}
+{% endfor %}
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
+	<div class="media" align="center">
+			<div class="media-body">
+				<div class="newstitle">
+					{{ page.title }}
+				</div>
+				<p>
+					{{ page.date | date_to_string }}
+					{% if author %}
+					by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
+					{% endif %}		
+				</p>
+			</div>
+		</div>
+	</div>				
+	<div class="col-md-2"></div>
+</div>
+
+
+<div class="row">
+	<div class="col-md-2"></div>	
+	<div class="col-md-8">	
+		{% if page.image %}
+		<img class="offset" style="padding-left: 5px; padding-right: 5px;" src="{{ page.image }}">
+		{% endif %}
+		<div class="post newsbody">
+			{{ content }}
+		</div>	
+	</div>			
+	<div class="col-md-2"></div>
+</div>	
+
+
+
+
+
