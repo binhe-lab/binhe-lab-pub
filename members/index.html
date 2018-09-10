@@ -6,10 +6,9 @@ categories:
 ---
 
 <div class="row">
-	<div class="note col-md-12" style="display:inline;">Click on pictures/names for further info. Interested in our work? Click <a href="/misc/join">here</a> to learn how to join us!</div>
+	<div class="title col-md-12" style="display:inline;">Click <a href="/misc/join">here</a> to learn how to join us!</div>
 </div>
 
-<div class="bigspacer"></div>	
 
 <div class="row">
 	<div class="col-md-12">
@@ -24,22 +23,22 @@ categories:
 {% assign pages = site.categories.members | sort: "lastname" %}
 {% for member in pages %}
   {% if member.alumni != true %}
-    {% cycle 'add rows': '<div class="row">', nil, nil %}
+  {% cycle 'add rows': '<div class="row">', nil, nil %}
 	<div class="col-md-4 memberbox">
-	  <div class="media">
-	    <a class="pull-left" href="{{ member.url }}">
-	      <img width=140 class="media-object" src="{{ member.image }}">
-	    </a>
-	    <div class="media-body">
-	      <div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.name }}</a></div>
-	      <p class="note">{{ member.position }}</p>
-	    </div>
-	  </div>
+		<div class="media">
+			<a class="pull-left" href="{{ member.url }}">
+				<img width=140 class="media-object" src="{{ member.image }}">
+			</a>
+			<div class="media-body">
+				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.name }}</a></div>
+				<p class="note">{{ member.position }}</p>
+			</div>
+		</div>
 	</div>	  
-    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
+  {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
   {% endif %}
 {% endfor %}
-{% cycle 'close rows': nil, '</div><div class="bigspacer"></div>' %}
+{% cycle 'close rows': nil, '</div>', '</div><div class="bigspacer"></div>' %}
 
 <div class="row">
 	<div class="col-md-12">
@@ -59,11 +58,11 @@ categories:
 				<div class="media">
 					<div class="media-body">
 						<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.name }}</a></div>
-						<p class="note">{{ member.position }}</p>
+						<p class="note">{{ member.position }}<br />{{ member.timeinlab }}</p>
 					</div>
 				</div>
 			</div>	  
 		{% cycle 'close rows 2': nil, nil, '</div><div class="bigspacer"></div>' %}
 	{% endif %}
 {% endfor %}
-{% cycle 'close rows 2': nil, '</div><div class="bigspacer"></div>' %}
+{% cycle 'close rows 2': nil, '</div>', '</div><div class="bigspacer"></div>' %}
