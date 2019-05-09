@@ -21,3 +21,5 @@ vendor/
 # Mac
 .DS_Store
 
+# Ruby
+.ruby-version

@@ -1,7 +1,7 @@
 ---
 layout: member
 title:
-name: Abhishiktha
+name: Abhishiktha Godthi
 lastname: Godthi
 position: Graduate student
 handle:
