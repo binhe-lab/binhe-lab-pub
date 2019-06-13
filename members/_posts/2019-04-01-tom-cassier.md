@@ -12,6 +12,7 @@ scholar:
 github:
 website:
 twitter:
+alumni: TRUE
 ---
 
 I am a 2017 graduate of the University of Iowa holding Bachelor of Science degrees in Neurobiology and Psychology.
