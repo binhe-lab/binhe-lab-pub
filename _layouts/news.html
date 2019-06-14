@@ -34,7 +34,11 @@ layout: default
 	<div class="col-md-2"></div>	
 	<div class="col-md-8">	
 		{% if page.image %}
-		<img class="offset" style="padding-left: 5px; padding-right: 5px;" src="{{ page.image }}">
+		  {% if page.imgalt %}
+		    <img class="offset" style="padding-left: 5px; padding-right: 5px;" src="{{ page.image }}" onmouseover="this.src='{{ page.imgalt }}';" onmouseout="this.src='{{ page.image }}';">
+			{% else %}
+			  <img class="offset" style="padding-left: 5px; padding-right: 5px;" src="{{ page.image }}">
+		  {% endif %}
 		{% endif %}
 		<div class="post newsbody">
 			{{ content }}

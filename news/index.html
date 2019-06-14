@@ -28,7 +28,11 @@ categories:
 	</div>
 	<div class="col-md-8 reduce-clutter">		
 		{% if post.image %}
-		<a href="{{ post.url }}"><img class="float: right; padding-left: 10px; offset " src="{{ post.image }}" width = "350"></a>
+		  {% if post.imgalt %}
+			  <a href="{{ post.url }}"><img class="float: right; padding-left: 10px; offset " src="{{ post.image }}" onmouseover="this.src='{{ post.imgalt }}';" onmouseout="this.src='{{ post.image }}';" width = "350"></a>
+		  {% else %}
+			  <a href="{{ post.url }}"><img class="float: right; padding-left: 10px; offset " src="{{ post.image }}" width = "350"></a>
+		  {% endif %}
 		{% endif %}
 		<div class="newsbody">
 			{{ post.content }}
