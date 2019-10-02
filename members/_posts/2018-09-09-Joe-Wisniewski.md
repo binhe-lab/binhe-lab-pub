@@ -8,7 +8,8 @@ handle: joewisniewski
 email: joseph-wisniewski@uiowa.edu
 image: /images/team/joe-wisniewski.png
 alumni: true
-timeinlab: 2018.03-2019.01
+timeinlab: 2018.03 - 2019.01
+current_position: applying to pediatry school
 ---
 
 I am a student at the University of Iowa, majoring in Biology on a Pre-Podiatry track. I grew up in the city of Chicago, Illinois. After college, I plan on attending podiatry school and helping people improve their quality of life through their feet and ankles! Working in a lab is a new and exciting experience and I looking forward to the knowledge I will gain from this. I look forward to learning more about how environmental stress can cause drastic phenotypic changes in organisms. 

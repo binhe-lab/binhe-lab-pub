@@ -13,6 +13,8 @@ github:
 website:
 twitter:
 alumni: TRUE
+timeinlab: 2019.02 - 2019.06
+current_position: Medical school student at U of Iowa
 ---
 
 I am a 2017 graduate of the University of Iowa holding Bachelor of Science degrees in Neurobiology and Psychology.

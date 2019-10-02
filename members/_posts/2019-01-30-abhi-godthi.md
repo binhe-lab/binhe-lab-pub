@@ -7,11 +7,9 @@ position: Graduate student
 handle:
 email: abhishiktha-godthi@uiowa.edu
 image: /images/team/abhi-godthi.png
-cv:
-scholar:
-github:
-website:
-twitter:
+alumni: TRUE
+timeinlab: 2019.01 - 2019.07
+current_position: Graduate student, Prahlad lab
 ---
 
 I am a graduate student in iBio program at the University of Iowa doing graduate research in fungal pathogenesis and gene regulatory evolution.
