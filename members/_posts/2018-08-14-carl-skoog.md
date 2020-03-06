@@ -7,11 +7,9 @@ position: Undergraduate researcher
 handle:
 email: carl-skoog@uiowa.edu
 image: /images/team/carl-skoog.png
-cv: 
-scholar: 
-github: 
-website: 
-twitter: 
+alumni: TRUE
+timeinlab: 2018.05 - 2020.01
+current_position: will start medical School at the University of Iowa in 2020 fall
 ---
 
 My name is Carl Skoog and I am from West Des Moines, Iowa. I am currently a Junior Biomedical Science major at the University of Iowa with aspirations of attending Medical School. Outside of school my interests and hobbies include music, fitness, cooking, and film. Other activities I’m involved with at the University include UIHC Volunteering Student Leader Board, UI Intramural's, and Phi Kappa Psi Fraternity.
