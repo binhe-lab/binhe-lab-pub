@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # jekyll
-gem "jekyll", "3.1.1"
+gem "jekyll", "3.8.5"
 gem "redcarpet"
 #gem "jekyll-paginate"
 
@@ -10,7 +10,7 @@ gem 'therubyracer'
 gem 'less'
 
 # minifying
-gem 'jekyll-press'
+# gem 'jekyll-press'
 
 # octokit
 gem 'octokit'
