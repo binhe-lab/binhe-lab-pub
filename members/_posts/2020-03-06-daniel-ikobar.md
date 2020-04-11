@@ -6,11 +6,9 @@ lastname: Ikoba
 position: Undergraduate researcher
 email: daniel-ikoba@uiowa.edu
 image: /images/team/daniel-ikobar.png
-cv: 
-scholar: 
-github: 
-website: 
-twitter: 
+alumni: true
+timeinlab: 2020.02 - 2020.04
+current_position: applying to medical school
 ---
 
 I am a third year student majoring in Biochemistry with minors in Chemistry and Informatics.
