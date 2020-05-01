@@ -8,10 +8,9 @@ handle:
 email: zoheb-khan@uiowa.edu
 image: /images/team/zoheb-khan.png
 cv: /pdfs/team/zoheb-khan-CV.pdf
-scholar: 
-github: 
-website: 
-twitter: 
+alumni: TRUE
+timeinlab: 2018.05 - 2020.05
+current_position: will start his medical training in Des Moines University's Osteopathic Medicine program in 2020 Fall
 ---
 
 I am an undergraduate student at the University of Iowa studying Biomedical Engineering, with a focus area of bioinformatics.
