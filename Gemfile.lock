@@ -79,6 +79,3 @@ DEPENDENCIES
   octokit
   redcarpet
   therubyracer
-
-BUNDLED WITH
-   2.1.2
