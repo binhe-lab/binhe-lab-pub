@@ -7,7 +7,8 @@ position: Undergraduate researcher
 email: daniel-ikoba@uiowa.edu
 image: /images/team/daniel-ikobar.png
 alumni: true
-timeinlab: 2020.02 - 2020.04
+start: 2020.02
+finish: 2020.04
 current_position: applying to medical school
 ---
 

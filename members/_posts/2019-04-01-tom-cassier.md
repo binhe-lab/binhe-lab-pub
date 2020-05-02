@@ -6,14 +6,9 @@ lastname: Cassier
 position: Research Assistant
 handle:
 email: thomas-cassier@uiowa.edu
-image:
-cv:
-scholar:
-github:
-website:
-twitter:
 alumni: TRUE
-timeinlab: 2019.02 - 2019.06
+start: 2019.02
+finish: 2019.06
 current_position: Medical school student at U of Iowa
 ---
 

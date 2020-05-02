@@ -8,7 +8,8 @@ handle:
 email: ian-wallace@uiowa.edu
 image:
 alumni: TRUE
-timeinlab: 2018.05 - 2018.08
+start: 2018.05
+finish: 2018.08
 current_position: Undergrad in U of Minnesota
 ---
 

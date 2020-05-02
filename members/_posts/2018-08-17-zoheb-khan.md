@@ -9,7 +9,8 @@ email: zoheb-khan@uiowa.edu
 image: /images/team/zoheb-khan.png
 cv: /pdfs/team/zoheb-khan-CV.pdf
 alumni: TRUE
-timeinlab: 2018.05 - 2020.05
+start: 2018.05
+finish: 2020.05
 current_position: will start his medical training in Des Moines University's Osteopathic Medicine program in 2020 Fall
 ---
 

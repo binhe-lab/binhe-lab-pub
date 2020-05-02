@@ -7,6 +7,8 @@ position: Research Assistant
 handle:
 email: kyle-malcolm@uiowa.edu
 image: /images/team/kyle-malcolm.png
+start: 2018.06
+finish:
 cv:
 scholar:
 github:

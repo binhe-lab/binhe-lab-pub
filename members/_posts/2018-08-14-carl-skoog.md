@@ -8,7 +8,8 @@ handle:
 email: carl-skoog@uiowa.edu
 image: /images/team/carl-skoog.png
 alumni: TRUE
-timeinlab: 2018.05 - 2020.01
+start: 2018.05
+finish: 2020.01
 current_position: will start medical School at the University of Iowa in 2020 fall
 ---
 

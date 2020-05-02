@@ -7,6 +7,7 @@ position: Graduate Student
 handle:
 email: lindsey-f-snyder@uiowa.edu
 image: /images/team/lindsey-snyder.jpg
+start: 2018.09
 cv:
 scholar:
 github:

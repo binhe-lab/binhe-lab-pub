@@ -6,6 +6,8 @@ lastname: Caraballo
 position: Undergraduate researcher
 email: amanda-caraballo@uiowa.edu
 image: /images/team/amanda-caraballo.png
+start: 2020.01
+finish: 
 cv: 
 scholar: 
 github: 

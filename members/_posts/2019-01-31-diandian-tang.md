@@ -7,6 +7,8 @@ position: undergraduate student researcher
 handle:
 email: diantang@uiowa.edu
 image: /images/team/diandian-tang.png
+start: 2019.01
+finish:
 cv:
 scholar:
 github:

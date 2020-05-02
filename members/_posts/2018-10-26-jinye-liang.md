@@ -7,6 +7,8 @@ position: Graduate student
 handle:
 email: jinye-liang@uiowa.edu
 image: /images/team/jinye-liang.png
+start: 2018.08
+finish:
 cv:
 scholar:
 github:

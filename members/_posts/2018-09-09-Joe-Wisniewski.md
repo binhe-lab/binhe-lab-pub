@@ -8,6 +8,8 @@ handle: joewisniewski
 email: joseph-wisniewski@uiowa.edu
 image: /images/team/joe-wisniewski.png
 alumni: true
+start: 2018.03
+finish: 2019.01
 timeinlab: 2018.03 - 2019.01
 current_position:  Medical student at Scholl College of Podiatric Medicine with Rosalind Franklin University
 ---

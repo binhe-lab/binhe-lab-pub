@@ -8,7 +8,8 @@ handle:
 email: abhishiktha-godthi@uiowa.edu
 image: /images/team/abhi-godthi.png
 alumni: TRUE
-timeinlab: 2019.01 - 2019.07
+start: 2019.01
+finish: 2019.07
 current_position: Graduate student, Prahlad lab
 ---
 
