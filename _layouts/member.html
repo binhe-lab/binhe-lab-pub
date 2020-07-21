@@ -19,8 +19,13 @@ layout: default
 				</h1>
 				<p>
 				<h6>
-					{{ member.position }}
+					{{ member.position }} ({{ member.start }} - {{ member.finish }})<br>
 				</h6>
+			  {% if member.alumni %}		
+				<h6>
+					Currently {{ member.current_position }}
+				</h6>
+				{% endif %}
 			</div>
 		</div>
 	</div>				
