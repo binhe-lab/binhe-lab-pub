@@ -7,13 +7,10 @@ position: Research Assistant
 handle:
 email: kyle-malcolm@uiowa.edu
 image: /images/team/kyle-malcolm.png
+alumni: TRUE
 start: 2018.06
-finish:
-cv:
-scholar:
-github:
-website:
-twitter:
+finish: 2020.10
+current_position: NA
 ---
 
 I graduated from the University of Iowa with a degree in Biochemistry and am currently an RA in the lab.
