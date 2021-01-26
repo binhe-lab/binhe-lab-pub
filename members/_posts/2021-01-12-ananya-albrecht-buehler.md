@@ -5,7 +5,7 @@ name: Ananya Albrecht-Buehler
 lastname: Albrecht-Buehler
 position: High school intern
 email: 
-image: 
+image: /images/team/ananya-albrecht-buehler.png
 start: 2020.05
 finish:
 cv: 
