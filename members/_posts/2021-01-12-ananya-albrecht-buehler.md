@@ -6,8 +6,10 @@ lastname: Albrecht-Buehler
 position: High school intern
 email: 
 image: /images/team/ananya-albrecht-buehler.png
+alumni: TRUE
 start: 2020.05
-finish:
+finish: 2021.05
+current_position: undergraduate student at the Oxford University in UK
 cv: 
 github: 
 website: 

@@ -10,7 +10,7 @@ image: /images/team/carl-skoog.png
 alumni: TRUE
 start: 2018.05
 finish: 2020.01
-current_position: will start medical School at the University of Iowa in 2020 fall
+current_position: Medical school student at the University of Iowa Carver College of Medicine (start in 2020 fall)
 ---
 
 My name is Carl Skoog and I am from West Des Moines, Iowa. I am currently a Junior Biomedical Science major at the University of Iowa with aspirations of attending Medical School. Outside of school my interests and hobbies include music, fitness, cooking, and film. Other activities I’m involved with at the University include UIHC Volunteering Student Leader Board, UI Intramural's, and Phi Kappa Psi Fraternity.

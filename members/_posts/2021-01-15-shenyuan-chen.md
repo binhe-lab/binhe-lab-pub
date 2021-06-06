@@ -6,8 +6,10 @@ lastname: Chen
 position: High school intern
 email: 
 image: /images/team/shenyuan-chen.png
+alumni: TRUE
 start: 2021.01
 finish: 2021.05
+current_position: undergraduate student at UC San Diego
 cv: 
 github: 
 website: 
