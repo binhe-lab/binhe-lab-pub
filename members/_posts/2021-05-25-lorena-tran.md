@@ -6,9 +6,9 @@ lastname: Tran
 position: Undergraduate Researcher
 email: 
 image: /images/team/lorena-tran.jpeg
-alumni: FALSE
+alumni: TRUE
 start: 2021.03
-finish:
+finish: 2021.07
 current_position:
 cv: 
 github: 

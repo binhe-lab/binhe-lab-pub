@@ -6,7 +6,7 @@ lastname: Malcolm
 position: Research Assistant
 handle:
 email: kyle-malcolm@uiowa.edu
-image: /images/team/kyle-malcolm.png
+image: /images/team/kyle-malcolm.jpg
 alumni: TRUE
 start: 2018.06
 finish: 2020.10

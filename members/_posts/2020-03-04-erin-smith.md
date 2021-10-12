@@ -6,8 +6,9 @@ lastname: Smith
 position: Undergraduate researcher
 email: erin-k-smith@uiowa.edu
 image: /images/team/erin-smith.png 
+alumni: TRUE
 start: 2019.10
-finish:
+finish: 2021.08
 cv: 
 scholar: 
 github: 
