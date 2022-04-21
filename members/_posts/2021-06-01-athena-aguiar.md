@@ -6,10 +6,10 @@ lastname: Aguiar
 position: Undergraduate Researcher
 email: 
 image: /images/team/athena-aguiar.png
-alumni: FALSE
+alumni: TRUE
 start: 2021.05
-finish:
-current_position:
+finish: 2022.05
+current_position: graduate from college
 cv: 
 github: 
 website: 

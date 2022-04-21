@@ -6,10 +6,10 @@ lastname: Kvamme
 position: Graduate Rotation Student
 email: 
 image: /images/team/athena-kvamme.jpg
-alumni: FALSE
+alumni: TRUE
 start: 2021.09
-finish:
-current_position:
+finish: 2021.11
+current_position: Ph.D. candidate in IGPG
 cv: 
 github: 
 website: 
