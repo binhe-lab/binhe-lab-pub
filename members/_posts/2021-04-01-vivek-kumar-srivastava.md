@@ -6,8 +6,10 @@ lastname: Srivastava
 position: Postdoctoral Researcher
 email: 
 image: /images/team/vivek-kumar-srivastava.png
+alumni: True
 start: 2021.04
-finish:
+finish: 2022.05
+current_position: postdoctoral researcher in the Nizar lab at the University of Iowa
 cv: 
 github: 
 website: 
