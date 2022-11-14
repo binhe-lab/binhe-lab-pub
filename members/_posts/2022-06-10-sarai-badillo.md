@@ -7,10 +7,10 @@ position: Undergraduate researcher
 handle:
 email: sarai-badillo@uiowa.edu
 image: /images/team/sarai-badillo.jpg
-alumni:
-start:
-finish:
-current_position:
+alumni: TRUE
+start: 2022.05
+finish: 2022.08
+current_position: Undergraduate student in UT Permian Basin
 cv:
 scholar:
 github:

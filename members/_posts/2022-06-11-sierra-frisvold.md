@@ -7,10 +7,10 @@ position: High school intern
 handle:
 email: sierrafrisvold@gmail.com
 image: /images/team/sierra-frisvold.jpg
-alumni:
+alumni: TRUE
 start: 2022.06
-finish:
-current_position: 
+finish: 2022.08
+current_position: applying for college
 cv:
 scholar:
 github:
