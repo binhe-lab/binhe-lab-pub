@@ -1,6 +1,6 @@
 ---
 layout: news
-title: 2021 Get-together and goodbye party
+title: 2022 summer lab photo and ice-cream social
 author: Bin
 image: /images/news/2022-07-19-lab-summer-photo.jpg
 imgalt: /images/news/2022-08-09-lab-ice-cream-social.jpg
