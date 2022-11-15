@@ -2,6 +2,9 @@
 
 This website is based on <http://bedford.io> ([GitHub repo](https://github.com/blab/blotter)) with modifications made by [Rasi Subramanium](http://rasilab.org). I further customized the site by incorporating elements from the [hugo-academic theme](https://themes.gohugo.io/academic/).
 
+## Setup the system (Mac OS)
+- Ruby version is specified in the `.ruby-version` file and the gems versions in the `Gemfile.lock`.
+- Don't use the system ruby. I used to use `rbenv` to manage different ruby versions. Here 
 ## Build site
 
 To build the website locally, clone the repo with:

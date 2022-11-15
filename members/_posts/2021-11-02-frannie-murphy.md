@@ -5,7 +5,7 @@ name: Frannie Murphy
 lastname: Murphy
 position: Undergraduate researcher
 handle:
-email: frannie-murphy@uiowa.edu
+email: frances-murphy@uiowa.edu
 image: /images/team/frannie-murphy.jpg
 alumni:
 start: 2021.11
