@@ -6,10 +6,10 @@ lastname: Bryant
 position: Undergraduate Researcher
 email: 
 image: /images/team/paisley-bryant.jpeg
-alumni: FALSE
+alumni: TRUE
 start: 2021.09
-finish:
-current_position:
+finish: 2022.05
+current_position: NA
 cv: 
 github: 
 website: 
