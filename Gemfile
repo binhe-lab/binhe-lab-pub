@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 # jekyll
-gem "jekyll", "~> 3"
-gem "redcarpet"
+gem "jekyll", "~> 4"
+#gem "redcarpet"
 #gem "jekyll-paginate"
 
 # compiling less

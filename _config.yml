@@ -3,23 +3,23 @@ description: Science updates on evolution of gene regulatory networks and stress
 url: https://binhe-lab.netlify.com
 
 #highlighter: rouge
-#markdown: kramdown
 #kramdown:
 #  input: GFM
 #  auto_ids: true
 #  syntax_highlighter: rouge
 
-markdown: redcarpet
+  #markdown: redcarpet
+markdown: kramdown
 permalink: /:categories/:title/
 future: true
 
-redcarpet: 
-  extensions:
-   - tables
-   - no_intra_emphasis
-   - autolink
-   - superscript
-   - strikethrough
+  #redcarpet: 
+  #  extensions:
+  #   - tables
+  #   - no_intra_emphasis
+  #   - autolink
+  #   - superscript
+  #   - strikethrough
 
 # Gems
 # gems: [jekyll-paginate]
@@ -51,20 +51,3 @@ exclude:
   - "Gemfile.lock"
 
 exclude: [vendor]
-
-projects:
-  - trvrb/coaltrace
-  - trvrb/stem
-  - trvrb/PACT
-  - trvrb/dynamics-practical
-  - trvrb/antigen
-  - trvrb/haplotypes
-  - trvrb/divergence
-  - trvrb/ancestry
-  - trvrb/medium-data
-  - trvrb/flutrace
-  - blab/nextflu
-  - alvason/infectious-pulse
-  - blab/global-migration
-  - trvrb/sismid
-  - trvrb/sctrace
