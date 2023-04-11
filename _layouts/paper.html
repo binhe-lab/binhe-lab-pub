@@ -70,6 +70,17 @@ layout: default
 			</div>		
 			<div class="bigspacer"></div>							
 			{% endif %}				
+			{% if page.preprint %}
+			<div class="smallhead">
+				Preprint
+			</div>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="http://dx.doi.org/{{ page.preprint }}">{{ page.preprint }}</a>
+			</div>		
+			<div class="bigspacer"></div>							
+			{% endif %}				
 			{% if page.link %}
 			<div class="smallhead">
 				Link
