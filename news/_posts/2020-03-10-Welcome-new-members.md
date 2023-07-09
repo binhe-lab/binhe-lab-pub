@@ -1,6 +1,7 @@
 ---
 layout: news
 title: 2020 Welcome New Members
+permalink: /news/2020-new-members/
 author: Bin
 image: 
 ---
