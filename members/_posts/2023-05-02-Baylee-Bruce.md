@@ -4,8 +4,8 @@ title:
 name: Baylee Bruce
 lastname: Bruce
 position: Graduate Student (PhD)
-email: lindsey-f-snyder@uiowa.edu
-image: /images/team/baylee-bruce.jpg
+email: baylee-bruce@uiowa.edu
+image: /images/team/baylee-bruce.png
 start: 2023.05
 cv:
 scholar:

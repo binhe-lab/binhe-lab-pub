@@ -7,10 +7,10 @@ position: Undergraduate researcher
 handle:
 email: ava-gabrys@uiowa.edu
 image: /images/team/ava-gabrys.jpg
-alumni:
+alumni: TRUE
 start: 2023.05
-finish:
-current_position:
+finish: 2023.08
+current_position: undergraduate student at PSU
 cv:
 scholar:
 github:
