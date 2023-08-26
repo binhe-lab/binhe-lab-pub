@@ -3,7 +3,7 @@ layout: member
 title:
 name: Varshu Saravanakumar
 lastname: Saravanakumar
-position: Research assistant
+position: Graduate Student (PhD)
 handle:
 email: srivarshini-saravanakumar@uiowa.edu
 image: /images/team/varshu-saravanakumar.jpg
