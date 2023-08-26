@@ -1,6 +1,6 @@
 ---
 layout: news
-title: 2022 Lindsey awarded the Graduate College's Summer Fellowship!
+title: 2023 Lindsey awarded the Graduate College's Summer Fellowship!
 author: Bin
 image:
 ---
