@@ -2,7 +2,7 @@
 layout: news
 title: 2023 cake for Jinye's birthday
 author: Bin
-image: /images/news/2023-03-03-jinye-birthday-cake1.jpg
+image: /images/news/2023-03-03-jinye-birthday-cake.jpg
 imgalt: 
 ---
 
