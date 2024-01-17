@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: Divergence of TORC1-mediated Stress Response Leads to Novel Acquired Stress Resistance in a Pathogenic Yeast
-image: 
+image: /images/papers/Liang-PLOS-Pathogens-2023.png
 authors: Liang J <sup><i class="small fa fa-envelope"></i></sup>, Tang H<sup><i class="small fa fa-asterisk"></i></sup>, Snyder LF<sup><i class="small fa fa-asterisk"></i></sup>, Youngstrom CE, He BZ <sup><i class="small fa fa-envelope"></i></sup>.
 year: 2023
 ref: Liang et al. 2023, PLOS Pathogen
