@@ -7,10 +7,10 @@ position: Graduate Student (PhD)
 handle:
 email: srivarshini-saravanakumar@uiowa.edu
 image: /images/team/varshu-saravanakumar.jpg
-alumni:
+alumni: TRUE
 start: 2022.09
-finish:
-current_position:
+finish: 2024.04
+current_position: graduate student at the University of Iowa
 cv:
 scholar:
 github:

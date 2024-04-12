@@ -7,10 +7,10 @@ position: Postdocotral Researcher
 handle:
 email: christopher-youngstrom@uiowa.edu
 image: /images/team/chris-youngstrom.png
-alumni:
+alumni: TRUE
 start: 2022.09
-finish:
-current_position:
+finish: 2024.01
+current_position: postdoc at Iowa State University plant genetic engineering
 cv:
 scholar:
 github:
