@@ -10,7 +10,7 @@ image: /images/team/sierra-frisvold.jpg
 alumni: TRUE
 start: 2022.06
 finish: 2022.08
-current_position: applying for college
+current_position: undergraduate student at William and Mary College, VA
 cv:
 scholar:
 github:

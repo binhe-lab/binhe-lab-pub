@@ -7,10 +7,10 @@ position: Postdocotral Researcher
 handle:
 email: anthony-pannullo@uiowa.edu
 image: /images/team/anthony-pannullo.jpg
-alumni:
+alumni: TRUE
 start: 2023.03
-finish:
-current_position:
+finish: 2024.04
+current_position: postdoctoral scientist at the USDA National Center for Agricultural Utilization Research, Peoria, IL
 cv:
 scholar:
 github:

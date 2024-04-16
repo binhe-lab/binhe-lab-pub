@@ -3,7 +3,7 @@ layout: member
 title:
 name: Sarai Badillo
 lastname: Badillo
-position: Undergraduate researcher
+position: Summer REU student
 handle:
 email: sarai-badillo@uiowa.edu
 image: /images/team/sarai-badillo.jpg

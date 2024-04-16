@@ -9,7 +9,7 @@ email: thomas-cassier@uiowa.edu
 alumni: TRUE
 start: 2019.02
 finish: 2019.06
-current_position: Medical school student at U of Iowa
+current_position: Graduated medical school at UIowa in 2023, now a resident in Marshall University School of Medicine, WV
 ---
 
 I am a 2017 graduate of the University of Iowa holding Bachelor of Science degrees in Neurobiology and Psychology.

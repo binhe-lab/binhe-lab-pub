@@ -10,7 +10,7 @@ image: /images/team/varshu-saravanakumar.jpg
 alumni: TRUE
 start: 2022.09
 finish: 2024.04
-current_position: graduate student at the University of Iowa
+current_position: graduate student in the iBio program at the University of Iowa
 cv:
 scholar:
 github:

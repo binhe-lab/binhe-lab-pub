@@ -3,7 +3,7 @@ layout: member
 title:
 name: Ava Gabrys
 lastname: Gabrys
-position: Undergraduate researcher
+position: Summer REU student
 handle:
 email: ava-gabrys@uiowa.edu
 image: /images/team/ava-gabrys.jpg
