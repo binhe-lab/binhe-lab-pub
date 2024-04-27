@@ -10,7 +10,7 @@ image: /images/team/chris-youngstrom.png
 alumni: TRUE
 start: 2022.09
 finish: 2024.01
-current_position: postdoc at Iowa State University plant genetic engineering
+current_position: postdoc in Kan Wang lab at Iowa State University plant genetic engineering
 cv:
 scholar:
 github:

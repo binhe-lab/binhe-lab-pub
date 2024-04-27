@@ -7,10 +7,10 @@ position: Undergraduate researcher
 handle:
 email: cole-belcher@uiowa.edu
 image: /images/team/cole-belcher.jpg
-alumni:
+alumni: TRUE
 start: 2022.06
-finish:
-current_position:
+finish: 2024.05
+current_position: MS student in Pathobiology, UIUC
 cv:
 scholar:
 github:
