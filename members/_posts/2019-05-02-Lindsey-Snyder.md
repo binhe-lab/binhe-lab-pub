@@ -7,10 +7,10 @@ position: Graduate Student
 handle:
 email: lindsey-f-snyder@uiowa.edu
 image: /images/team/lindsey-snyder.jpg
-alumni:
+alumni: TRUE
 start: 2018.09
 finish: 2024.05
-current_position: 
+current_position: Biotech industry in Boston, MA
 cv:
 scholar:
 github:
