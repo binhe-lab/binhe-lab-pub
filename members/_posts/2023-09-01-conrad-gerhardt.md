@@ -7,10 +7,10 @@ position: Undergraduate researcher
 handle:
 email: conrad-gerhardt@uiowa.edu
 image: /images/team/conrad-gerhardt.jpg
-alumni: 
+alumni: True
 start: 2023.09
-finish:
-current_position:
+finish: 2024.05
+current_position: N/A
 cv:
 scholar:
 github:

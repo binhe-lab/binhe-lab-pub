@@ -1,18 +1,18 @@
 ---
 layout: member
 title:
-name: Hanxi Tang
-lastname: Tang
+name: Hubert Kicinski
+lastname: Kicinski
 position: Graduate student (MS)
 handle:
-email: hanxi-tang@uiowa.edu
-image: /images/team/hanxi-tang.jpg
-alumni: True
-start: 2022.08
-finish: 2024.05
-current_position: Ph.D. student at Stanford University, Chemical and Systems Biology
+email: hkicinski@uiowa.edu
+image: /images/team/hubert-kicinski.jpg
+alumni: 
+start: 2024.08
+finish: 
+current_position:
 cv:
-scholar: jDJblKYAAAAJ
+scholar:
 github:
 website:
 twitter:

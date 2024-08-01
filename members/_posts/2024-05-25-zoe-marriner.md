@@ -7,9 +7,9 @@ position: Summer REU student
 handle:
 email: zmarr1n3r@unm.edu
 image: /images/team/zoe-marriner.jpg
-alumni: FALSE
+alumni: True
 start: 2024.05
-finish:
+finish: 2024.07
 current_position: undergraduate student at U of New Mexico
 cv:
 scholar:
