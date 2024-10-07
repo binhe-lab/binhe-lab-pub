@@ -1,7 +1,7 @@
 ---
 layout: member
-title: Joshua Ayelazuno
-name: Joshua 
+title: 
+name: Joshua Ayelazuno
 lastname: Ayelazuno
 position: Graduate Student (PhD)
 email: jayelazuno@uiowa.edu
