@@ -16,7 +16,7 @@ categories:
 
 {% for paper in site.categories.selected-papers %}
 			<div class="papertitle"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-			<div class="author">{{ paper.authors }} &nbsp; ({{ paper.year }}) &nbsp; {{ paper.journal }}</div>
+			<div class="author">{{ paper.authors }} &nbsp; ({{ paper.year }}) &nbsp; {{ paper.journal }} &nbsp; PMID: {{ paper.pmid }}</div>
 <div class="bigspacer"></div>
 {% endfor %}
 

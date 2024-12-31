@@ -10,6 +10,7 @@ pdf: /pdfs/papers/Liang-ppat-2023.pdf
 supplement: /pdfs/papers/Liang-ppat-2023-supp.zip
 preprint: 10.1101/2023.06.20.545716
 doi: 10.1371/journal.ppat.1011748
+pmid: 37871123
 github: https://github.com/binhe-lab/E036-ASR-H2O2
 category: selected-papers
 ---

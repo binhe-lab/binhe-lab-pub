@@ -10,6 +10,7 @@ pdf: /pdfs/papers/Lou-biophysj-2007.pdf
 supplement: 
 image:
 doi: 10.1529/biophysj.106.097089
+pmid: 17259278
 category: 
 ---
 

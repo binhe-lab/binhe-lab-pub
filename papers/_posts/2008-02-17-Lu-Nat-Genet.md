@@ -10,6 +10,7 @@ pdf: /pdfs/papers/Lu-ng-2008.pdf
 supplement: /pdfs/papers/Lu-ng-2008-supp.pdf
 image:
 doi: 10.1038/ng.73
+pmid: 18278047
 category: 
 ---
 

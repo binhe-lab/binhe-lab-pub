@@ -18,7 +18,8 @@ layout: default
 				<div class="smallhead">
 					{{ page.authors }}
 					&nbsp{{ page.year }}&nbsp
-					{{ page.journal }}
+					{{ page.journal }}&nbsp
+					{{ page.pmid }}
 				</div>
 			</div>
 		</div>
@@ -67,6 +68,17 @@ layout: default
 				<div class="smallspacer"></div>
 				<i class="fa fa-external-link fa-fw"></i>
 				<a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
+			</div>		
+			<div class="bigspacer"></div>							
+			{% endif %}				
+			{% if page.pmid %}
+			<div class="smallhead">
+				PMID
+			</div>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="https://pubmed.ncbi.nlm.nih.gov/{{ page.pmid }}">{{ page.pmid }}</a>
 			</div>		
 			<div class="bigspacer"></div>							
 			{% endif %}				

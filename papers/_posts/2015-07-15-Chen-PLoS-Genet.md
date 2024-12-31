@@ -9,6 +9,7 @@ journal: "PLoS Genet. 11(7): e1005391"
 pdf: /pdfs/papers/Chen-pgen-2014.pdf 
 image: 
 doi: 10.1371/journal.pgen.1005391
+pmid: 26177073
 category: papers
 ---
 
