@@ -1,6 +1,6 @@
 ---
 layout: news
-title: 2024 Jessica presents paper on polyP at Spring Undergraduate Research Conference
+title: 2024 Jessica presents poster on polyP at Spring Undergraduate Research Conference
 permalink: /news/2024-Jessica-SURF-paper
 author: Bin
 image: /images/news/2024-04-03-Jessica-SURF-poster.jpg
