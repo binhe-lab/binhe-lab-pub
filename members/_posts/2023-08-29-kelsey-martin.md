@@ -9,8 +9,8 @@ email: kelsey-martin@uiowa.edu
 image: /images/team/kelsey-martin.jpg
 alumni: 
 start: 2023.08
-finish:
-current_position:
+finish: 2025.05
+current_position: PhD student in the Genetics Program at the University of Iowa
 cv:
 scholar:
 github:
