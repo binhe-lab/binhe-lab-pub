@@ -7,10 +7,10 @@ position: Undergraduate researcher
 handle:
 email: kelsey-martin@uiowa.edu
 image: /images/team/kelsey-martin.jpg
-alumni: 
+alumni: TRUE
 start: 2023.08
 finish: 2025.05
-current_position: PhD student in the Genetics Program at the University of Iowa
+current_position: PhD student in the Genetics Program at the Univ of Iowa
 cv:
 scholar:
 github:
