@@ -1,17 +1,17 @@
 ---
 layout: paper
-title: Parallel Expansion and Divergence of an Adhesin Family in Pathogenic Yeasts
-image: /images/papers/Smoak-Genetics-2023.png
-authors: Smoak RS <sup><i class="small fa fa-asterisk"></i></sup>, Snyder LF <sup><i class="small fa fa-asterisk"></i></sup>, Fassler JS <sup><i class="small fa fa-envelope"></i></sup>, He BZ <sup><i class="small fa fa-envelope"></i></sup>.
-year: 2023
-ref: Smoak, Snyder et al. 2023, Genetics
-journal: "Genetics. 223(4), iyad024"
-pdf: /pdfs/papers/Smoak-Genetics-2023.pdf
-supplement: /pdfs/papers/Smoak-genetics-2023-supp.zip
-preprint: 10.1101/2022.02.09.479577
-doi: 10.1093/genetics/iyad024
-pmid: 36794645
-github: https://github.com/binhe-lab/2023-adhesin-parallel-evolution
+title: Divergence in a eukaryotic transcription factor’s co-TF dependence involves multiple intrinsically disordered regions
+image: /images/papers/snyder-nat-commun-2025.png
+authors: Snyder LF <sup><i class="small fa fa-asterisk"></i></sup>, O'Brien EM, Zhao J, Liang J, Bruce BJ, Zhang Y, Zhu W, Cassier TH, Schnicker NJ, Zhou X, Gordan R, He BZ <sup><i class="small fa fa-envelope"></i></sup>.
+year: 2025
+ref: Snyder et al. 2025, Nature Communications
+journal: "Nat Commun. 16, 5340"
+pdf: /pdfs/papers/Snyder-Nat-Commun-2025.pdf
+supplement: /pdfs/papers/Snyder-Nat-Commun-2025-supp.tar.gz
+preprint: 10.1101/2024.04.20.590343
+doi: https://doi.org/10.1038/s41467-025-59244-w
+pmid: 40533454
+github: https://github.com/binhe-lab/E013-Pho4-evolution
 category: selected-papers
 ---
 
