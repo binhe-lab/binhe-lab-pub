@@ -6,7 +6,10 @@ lastname: Chen
 position: Graduate Student (MS)
 email: zhihan-chen@uiowa.edu
 image: /images/team/zhihan-chen.jpg
+alumni: True
 start: 2023.11
+finish: 2025.05
+current_position: PhD student in Stats at the University of Iowa
 cv:
 scholar:
 github:
