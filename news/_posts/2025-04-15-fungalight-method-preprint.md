@@ -2,7 +2,7 @@
 layout: news
 title: 2025 Optimized LIVE/DEAD assay preprint
 author: Bin
-image: /images/news/20250415-fungalight.png
+image: /images/news/2025-04-15-fungalight.png
 ---
 
 Our new work on an optimized LIVE/DEAD assay coupled with flow cytometry for post-survival quantification is on biorxiv! Read it [here](https://www.biorxiv.org/content/10.1101/2025.04.14.648826). This is the MS thesis work of the first author, [Hanxi Tang](https://www.binhe-lab.org/members/hanxi-tang/), with help from [Jinye Liang](https://www.binhe-lab.org/members/jinye-liang/). Both authors have successfully defended last year. We miss you here in the lab. Best wishes to your current research endeavors! Read more below.
