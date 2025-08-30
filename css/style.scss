@@ -261,11 +261,11 @@ a:focus {
 .navbar-brand-text {
 	// Use Bootstrap's navbar-brand base styles for proper alignment with taller navbar
 	display: block;
-	padding: 25.5px 15px; // Match the taller navbar padding
+	padding: 25.5px 0px; // Match the taller navbar padding
 	font-size: 1.1rem;
 	font-weight: bold;
 	color: #ffcc00;
-	line-height: 20px; // Match Bootstrap's navbar line height
+	//line-height: 20px; // Match Bootstrap's navbar line height
 }
 
 a.navbar-brand-text:hover {
