@@ -1,0 +1,611 @@
+---
+---
+
+// Bootstrap and Font Awesome are now loaded via CDN in the HTML template
+// This file contains only custom styles converted from Less to Sass
+
+// Custom variables (converted from Less @ syntax to Sass $ syntax)
+$font-size-base: 18px;
+$brand-primary: #DD2D2D;
+$line-height-base: 1.6;
+$navbar-height: 71px;
+$navbar-margin-bottom: 30px;
+$code-color: #586E75;
+$pre-color: #586E75;
+$well-bg: #f8f8f8;
+$code-bg: #f8f8f8;
+$pre-bg: #f8f8f8;
+
+// Bootstrap color variables for compatibility
+$gray-light: #777;
+$body-bg: #fff;
+$screen-desktop: 992px;
+$screen-lg-desktop: 1200px;
+$screen-tablet: 768px;
+
+/* general */
+
+html {
+	//font-family: 'Merriweather', serif;
+	font-family: Roboto, sans-serif;
+	font-size: 20px;
+	color: rgba(0,0,0,0.8);
+	line-height: 1.3;
+	position: relative;
+	min-height: 100%;
+}
+//@media all and (max-width: 58em) {
+//	html {
+//		font-size: 18px;
+//	}
+//}
+
+body {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	color: inherit;
+	margin-bottom: 60px; /* leave room for footer */
+	padding-top: 0; /* Remove padding, navbar should extend to top */
+	counter-reset: captions;
+}
+
+/* list */
+ol {
+	padding-left: 10px;
+	margin: 10px;
+}
+
+/* Body text */
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-size: inherit;
+}
+
+.container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+// Add spacing below navbar for main content
+nav.navbar + .container {
+  margin-top: $navbar-margin-bottom;
+}
+
+/* paper abstract body text */
+.abstract {
+	font-family: "Helvetica", sans-serif;
+	font-size: .9rem;
+	font-weight: 300;
+	color: rgba(0,0,0,1);
+	line-height: 1.4;
+}
+
+.text-center {
+     text-align: center;
+}
+
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+// .center-block {
+//   display: block;
+//   margin: auto;
+//   vertical-align: middle;
+// }
+
+
+/* logo */
+
+.logo {
+	width: 60px;
+	height: 60px;
+	padding: 5px;
+}
+
+.biglogo {
+	width: 230px;
+	//height: 220px;
+	padding: 5px;
+	margin-top: 22px;
+	// Bootstrap center-block mixin converted to plain CSS
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* headings */
+
+/* borrowed from Hugo-Academic theme, 19 sep 2017 */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 400;
+	//margin-bottom: .5rem;
+	//line-height: 1.25;
+	color: #313131;
+	text-rendering: optimizeLegibility;
+}
+h1 {
+	margin-top: 0;
+	font-size: 2rem;
+}
+h2 {
+	font-weight: 700;
+	margin-top: 1rem;
+	font-size: 1.35rem;
+}
+h3 {
+	font-weight: 700;
+	margin-top: 1.5rem;
+	font-size: 1.25rem;
+}
+h4 {
+	font-weight: 700;
+	margin-top: 1.1rem;
+	font-size: 1rem;
+}
+h5 {
+	font-weight: 700;
+	margin-top: 1rem;
+	font-size: 0.9rem;
+}
+h6 {
+	font-weight: 300;
+	margin-top: 1rem;
+	font-size: 0.9rem;
+}
+
+h3.article-title a:hover {
+	color: #191919;
+	text-decoration: none;
+	transition: color 0.6s ease;
+}
+
+
+a:hover,
+a:focus {
+	color: #a50500;
+}
+
+.papertitle, .newstitle, .newsbody, .head, .author, .title, .smallhead, .note {
+	font-family: 'Helvetica', sans-serif;
+	color: rgba(0,0,0,1);
+}
+
+.papertitle {
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.3;
+	padding-bottom: 12px;
+}
+
+.newstitle {
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1.3;
+	padding-bottom: 12px;
+	color: #313131;
+}
+
+.newsbody {
+	font-size: .9rem;
+	font-weight: 300;
+	line-height: 1.4;
+}
+
+.author {
+	font-size: .85rem;
+	font-weight: 300;
+	line-height: 20px;
+	padding-bottom: 1rem;
+}
+
+.title { /* used for title on each paper's individual page */
+	font-size: 1.2rem;
+	line-height: 1.4;
+	font-weight: 300;
+}
+
+.head {
+	font-size: 1.3rem;
+	font-weight: 100;
+}
+
+.smallhead {
+	font-size: .9rem;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+.note {
+	font-size: .8rem;
+	font-weight: 300;
+	line-height: 1.4;
+	//word-wrap: break-word;
+}
+
+.text-gray {
+	color: $gray-light;
+}
+
+/* navbar-brand customization */
+/* borrowed from Hugo-Academic, 19 sep 2017 */
+
+// Let Bootstrap handle navbar-inverse styling - removed explicit overrides to test
+
+/* end borrow */
+
+// Increase navbar height to match live site (71px total)
+.navbar {
+	min-height: $navbar-height;
+}
+
+// change navbar font size and padding to match taller navbar
+// ref: https://colorlib.com/wp/forums/topic/font-size-and-font-weight-of-menu-items/
+.navbar-nav > li > a {
+	font-size: 1.05rem;
+	font-weight: 300; /* Increased from 100 to match live site */
+	padding-top: 25.5px; /* Increased from default 15px for 71px navbar */
+	padding-bottom: 25.5px;
+}
+
+.navbar-toggle {
+	background-color: #191919;
+	border: 2px solid #000;
+}
+
+.navbar-brand-text {
+	// Use Bootstrap's navbar-brand base styles for proper alignment with taller navbar
+	display: block;
+	padding: 25.5px 15px; // Match the taller navbar padding
+	font-size: 1.1rem;
+	font-weight: bold;
+	color: #ffcc00;
+	line-height: 20px; // Match Bootstrap's navbar line height
+}
+
+a.navbar-brand-text:hover {
+	color: #ffdd00;
+	text-decoration: underline;
+}
+
+.navbar-brand-centered {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80%;
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    //margin-left: -125px;
+}
+
+/* Adaptive text size and margin below navbar for phones*/
+
+/* Cause navbar to collapse at 1201px instead of 768px, 24 nov 2017 HB */
+/* reference: https://stackoverflow.com/questions/21076922/bootstrap-how-to-collapse-navbar-earlier */
+
+/* decrease padding as screen size shrinks */
+@media (min-width: $screen-desktop) and (max-width: $screen-lg-desktop) {
+	.container {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+// Remove the custom navbar collapse overrides - let Bootstrap handle navbar behavior
+@media (min-width: $screen-tablet) and (max-width: $screen-desktop) {
+	.container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+
+/* Adaptive text size and margin below navbar for phones*/
+
+@media all and (max-width: $screen-tablet) {
+	h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
+	.smallhead, .note, .papertitle, body {
+		font-size: 95%;	
+	}
+	.author{
+		font-size: 0.8rem;
+		padding-bottom: 0;
+	}
+	.title {
+		font-size: 110%;
+		line-height: 30px;
+	}
+	h1, .h1 {
+		font-weight: 700;
+	}
+	h4, .h4 {
+		font-style: italic;
+	}
+	.container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+
+.footer {
+	font-size: 0.8rem;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px; /* Vertically center the text there */
+	background-color: #e5e5e5;
+	/* center text */
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer a {
+	color: #707070;
+	text-decoration: underline;
+}
+
+.footer a:hover {
+	color: #005181;
+}
+
+
+/*************************************************
+ *  Biography -- borrowed from hugo-academic theme
+ **************************************************/
+
+#profile {
+  text-align: center;
+  padding: 30px 10px;
+  position: relative;
+}
+
+#profile .portrait {
+  background-image: url('../images/portrait.jpg');
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+
+#profile .portrait-title h2 {
+  font-size: 1.35rem;
+  font-weight: 300;
+  color: #000000;
+  margin: 20px 0 10px 0;
+}
+
+#profile .portrait-title h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #494949;
+  margin: 0px 0 8px 0;
+}
+
+#profile .portrait-title p, li {
+  font-family: Helvetica, sans-serif;
+  font-size: .95rem;
+  font-weight: 300;
+  color: #393939;
+}
+
+/* Social icon */
+#social {
+	position: relative;
+}
+
+#social ul.social-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+}
+
+#social .social-icon li {
+  margin-right: 10px;
+}
+
+#social .social-icon li:last-of-type {
+  margin-right: 0;
+}
+
+#social .social-icon li:hover {
+  transform: scale(1.2)
+}
+
+/*********
+ * other *
+ *********/
+
+.hugespacer {
+	height: 40px;
+}
+
+.bigspacer {
+	height: 20px;
+}
+
+.spacer {
+	height: 10px;
+}
+
+.smallspacer {
+	height: 5px;
+}
+
+a.off {
+	color: inherit;
+}
+
+code.has-jax {
+	background: inherit;
+	color: inherit;
+}
+
+pre {
+    overflow-x: auto;
+}
+
+pre code {
+    overflow-wrap: normal;
+    white-space: pre;
+}
+
+table {
+	// Bootstrap table classes converted to direct styles
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+	background-color: transparent;
+	border-collapse: collapse;
+	border-spacing: 0;
+	
+	// table-striped
+	> tbody > tr:nth-of-type(odd) {
+		background-color: #f9f9f9;
+	}
+}
+
+img {
+	// img-responsive converted to direct styles
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+img.offset {
+	float: right;
+	margin: 12px 0px 10px 15px;
+}
+
+img.avatar {
+	width: 20px;
+}
+
+.post img {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+blockquote {
+	color: $gray-light;
+	p {
+    font-size: ($font-size-base * 1.00);
+    }
+}
+
+.breadcrumb {
+	padding: 0px 0px;
+	background-color: $body-bg;
+	> li {
+		&+li:before {
+			padding: 0px;
+		}
+		&+li:after {
+			padding: 0px;
+		}
+	}
+}
+
+.feedbox {
+    overflow: hidden;
+	-webkit-mask-image: -webkit-gradient(linear, left 85%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+/*	-webkit-box-shadow: inset 0 -30px 10px -10px white; */
+/*	   -moz-box-shadow: inset 0 -30px 10px -10px white; */
+/*	        box-shadow: inset 0 -30px 10px -10px white; */
+}
+
+.postbox {
+    min-height: 80px;
+}
+
+.paperbox {
+    min-height: 140px;
+}
+
+.projectbox {
+    min-height: 130px;
+}
+
+.memberbox {
+    min-height: 200px;
+}
+
+.titlebox {
+	min-width: 300px;
+}
+
+.handlebox {
+	height: 20px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.pad-top {
+	padding-top: 60px;
+}
+
+.pad-right {
+	padding-right: 10px;
+}
+
+.pad-left {
+	padding-left: 10px;
+}
+
+#footer {
+	height: 80px;
+}
+
+.footernav {
+	// .note styles applied directly
+	font-size: .8rem;
+	font-weight: 300;
+	line-height: 1.4;
+	text-align: center;
+}
+
+/* Defaults */
+.text-center-sm,
+.text-center-md,
+.text-center-lg,
+.text-right-sm,
+.text-right-md,
+.text-right-lg { text-align: inherit; }
+
+/* Define xs styles after defaults so they take precedence */
+.text-center-xs { text-align: center; }
+.text-right-xs { text-align: right; }
+
+/* Small grid */
+@media all and (min-width: $screen-tablet) {
+  .text-center-sm, .text-center-xs { text-align: center; }
+  .text-right-sm, .text-right-xs { text-align: right; }
+}
+
+/* Medium grid */
+@media all and (min-width: $screen-desktop) {
+  .text-center-md, .text-center-sm, .text-center-xs { text-align: center; }
+  .text-right-md, .text-right-sm, .text-right-xs { text-align: right; }
+}
+
+/* Large grid */
+@media all and (min-width: $screen-lg-desktop) {
+  .text-center-lg, .text-center-md, .text-center-sm, .text-center-xs {
+    text-align: center;
+  }
+  .text-right-lg, .text-right-md, .text-right-sm, .text-right-xs {
+    text-align: right;
+  }
+}
