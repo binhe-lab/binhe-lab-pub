@@ -7,7 +7,7 @@ position: Undergraduate researcher
 handle:
 email: kan028@ucsd.edu
 image: /images/team/katelyn-nguyen.jpg
-alumni: False
+alumni: True
 start: 2025.05
 finish: 2025.07
 current_position: Undergraduate student at UCSD, CS and Bioinfo major 

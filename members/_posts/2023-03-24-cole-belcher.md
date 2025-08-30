@@ -10,7 +10,7 @@ image: /images/team/cole-belcher.jpg
 alumni: TRUE
 start: 2022.06
 finish: 2024.05
-current_position: MS student in Pathobiology, UIUC
+current_position: PhD student in Pathobiology, UIUC
 cv:
 scholar:
 github:

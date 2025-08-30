@@ -10,7 +10,7 @@ image: /images/team/zoe-marriner.jpg
 alumni: True
 start: 2024.05
 finish: 2024.07
-current_position: undergraduate student at U of New Mexico
+current_position: postbac research scholar in the Syed lab at Univ. of New Mexico
 cv:
 scholar:
 github:

@@ -10,7 +10,7 @@ image: /images/team/jinye-liang.png
 alumni: TRUE
 start: 2018.08
 finish: 2024.08
-current_position: 
+current_position: Postdoctoral researcher in the Ehrenreich lab at USC
 cv:
 scholar:
 github:

@@ -10,7 +10,7 @@ image: /images/team/ava-gabrys.jpg
 alumni: TRUE
 start: 2023.05
 finish: 2023.08
-current_position: undergraduate student at PSU
+current_position: Ph.D. student at the Biology Department, University of Florida
 cv:
 scholar:
 github:
