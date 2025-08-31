@@ -249,8 +249,9 @@ a:focus {
 .navbar-nav > li > a {
 	font-size: 1.05rem;
 	font-weight: 300; /* Increased from 100 to match live site */
-	padding-top: 25.5px; /* Increased from default 15px for 71px navbar */
-	padding-bottom: 25.5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+        line-height: $navbar-height; // Match navbar line height
 }
 
 .navbar-toggle {
@@ -260,12 +261,13 @@ a:focus {
 
 .navbar-brand-text {
 	// Use Bootstrap's navbar-brand base styles for proper alignment with taller navbar
-	display: block;
-	padding: 25.5px 0px; // Match the taller navbar padding
+	//display: block;
+	padding-top: 0px; // Match the taller navbar padding
+	padding-bottom: 0px; // Match the taller navbar padding
 	font-size: 1.1rem;
 	font-weight: bold;
 	color: #ffcc00;
-	//line-height: 20px; // Match Bootstrap's navbar line height
+	line-height: $navbar-height; // Match navbar line height
 }
 
 a.navbar-brand-text:hover {
