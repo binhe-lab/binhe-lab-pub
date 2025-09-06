@@ -7,9 +7,9 @@ position: Undergraduate researcher
 handle:
 email: frances-murphy@uiowa.edu
 image: /images/team/frannie-murphy.jpg
-alumni:
+alumni: True
 start: 2021.11
-finish: 2025.05
+finish: 2025.08
 current_position: MS student in Bioinformatics at the University of Minnesota-Twin Cities
 cv:
 scholar:
