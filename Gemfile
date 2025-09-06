@@ -5,9 +5,7 @@ gem "jekyll", "~> 4"
 #gem "redcarpet"
 #gem "jekyll-paginate"
 
-# compiling less
-gem 'therubyracer'
-gem 'less'
+# Sass support is built into Jekyll 4
 
 # minifying
 # gem 'jekyll-press'

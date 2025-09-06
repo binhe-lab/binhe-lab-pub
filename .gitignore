@@ -23,3 +23,6 @@ vendor/
 
 # Ruby
 .ruby-version
+
+# Claude Code documentation
+CLAUDE.local.md
