@@ -244,6 +244,11 @@ a:focus {
 	min-height: $navbar-height;
 }
 
+// Ensure navbar-header has full height
+.navbar-header {
+	min-height: $navbar-height;
+}
+
 // change navbar font size and padding to match taller navbar
 // ref: https://colorlib.com/wp/forums/topic/font-size-and-font-weight-of-menu-items/
 .navbar-nav > li > a {
@@ -257,6 +262,11 @@ a:focus {
 .navbar-toggle {
 	background-color: #191919;
 	border: 2px solid #000;
+	// Vertically center the toggle button in taller navbar
+	// Override Bootstrap's default margins completely
+	margin-top: calc(($navbar-height - 34px) / 2) !important; // 34px is default toggle button height
+	margin-bottom: calc(($navbar-height - 34px) / 2) !important;
+	margin-right: 15px; // Keep Bootstrap's right margin for spacing from edge
 }
 
 .navbar-brand-text {
@@ -298,7 +308,53 @@ a.navbar-brand-text:hover {
 		padding-right: 50px;
 	}
 }
-// Remove the custom navbar collapse overrides - let Bootstrap handle navbar behavior
+// Custom navbar collapse at 992px instead of default 768px
+@media (max-width: 991px) {
+	.navbar-header {
+		float: none;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	.navbar-nav {
+		float: none!important;
+		margin: 7.5px -15px;
+	}
+	.navbar-nav>li {
+		float: none;
+	}
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.navbar-collapse.collapse.in {
+		display: block!important;
+	}
+	.collapsing {
+		overflow: hidden!important;
+	}
+}
+
+// Hide toggle button on larger screens
+@media (min-width: 992px) {
+	.navbar-toggle {
+		display: none;
+	}
+	.navbar-collapse.collapse {
+		display: block!important;
+		height: auto!important;
+		padding-bottom: 0;
+		overflow: visible!important;
+	}
+}
+
 @media (min-width: $screen-tablet) and (max-width: $screen-desktop) {
 	.container {
 		padding-left: 25px;
