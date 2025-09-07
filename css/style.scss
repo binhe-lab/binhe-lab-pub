@@ -239,16 +239,6 @@ a:focus {
 
 /* end borrow */
 
-// Increase navbar height to match live site (71px total)
-.navbar {
-	min-height: $navbar-height;
-}
-
-// Ensure navbar-header has full height
-.navbar-header {
-	min-height: $navbar-height;
-}
-
 // change navbar font size and padding to match taller navbar
 // ref: https://colorlib.com/wp/forums/topic/font-size-and-font-weight-of-menu-items/
 .navbar-nav > li > a {
@@ -274,6 +264,7 @@ a:focus {
 	//display: block;
 	padding-top: 0px; // Match the taller navbar padding
 	padding-bottom: 0px; // Match the taller navbar padding
+        padding-left: 15px;
 	font-size: 1.1rem;
 	font-weight: bold;
 	color: #ffcc00;
