@@ -9,7 +9,7 @@ journal: "microPublication Biology 2026"
 pdf: /pdfs/papers/Young-Craven-MicroPub-Biol-2026.pdf
 supplement: 
 preprint: 
-doi: https://doi.org/10.17912/micropub.biology.001927
+doi: 10.17912/micropub.biology.001927
 pmid: 
 github: 
 category: 
