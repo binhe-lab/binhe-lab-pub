@@ -2,7 +2,7 @@
 layout: paper
 title: Divergence in a eukaryotic transcription factor’s co-TF dependence involves multiple intrinsically disordered regions
 image: /images/papers/snyder-nat-commun-2025.png
-authors: Snyder LF <sup><i class="small fa fa-asterisk"></i></sup>, O'Brien EM, Zhao J, Liang J, Bruce BJ, Zhang Y, Zhu W, Cassier TH, Schnicker NJ, Zhou X, Gordan R, He BZ <sup><i class="small fa fa-envelope"></i></sup>.
+authors: Snyder LF, O'Brien EM, Zhao J, Liang J, Bruce BJ, Zhang Y, Zhu W, Cassier TH, Schnicker NJ, Zhou X, Gordan R, He BZ <sup><i class="small fa fa-envelope"></i></sup>.
 year: 2025
 ref: Snyder et al. 2025, Nature Communications
 journal: "Nat Commun. 16, 5340"

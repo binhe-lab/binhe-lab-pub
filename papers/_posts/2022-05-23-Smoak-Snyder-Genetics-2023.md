@@ -11,6 +11,7 @@ supplement: /pdfs/papers/Smoak-genetics-2023-supp.zip
 preprint: 10.1101/2022.02.09.479577
 doi: 10.1093/genetics/iyad024
 github: https://github.com/binhe-lab/2023-adhesin-parallel-evolution
+pmid: 36794645
 category: selected-papers
 ---
 

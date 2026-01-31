@@ -11,7 +11,7 @@ supplement: /pdfs/papers/He-pgen-2011-supp.zip
 image: /images/papers/He-pgen-2011.png
 doi: 10.1371/journal.pgen.1002053
 pmid: 21572512
-category: selected-papers
+category:
 ---
 
 ### Abstract ###

@@ -8,6 +8,7 @@ journal: "MicroPub Biol. (2023) doi:10.17912/micropub.biology.001184"
 pdf: /pdfs/papers/Rocca-Saldana-MicroPub-Biol-2024.pdf
 image: /images/papers/
 doi: 10.17912/micropub.biology.001184
+pmid: 38854633
 category: papers
 ---
 
