@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: Combat behaviors predictive of fight outcome in Gromphadorhina portentosa
-image: /images/papers/Young-Craven-2026.jpg
+image: /images/papers/Young-Craven-MicroPub-Biol-2026.jpg
 authors: Young JJ <sup><i class="small fa fa-asterisk"></i></sup>, Craven CA <sup><i class="small fa fa-asterisk"></i></sup>, Koenig JA, Addemir M, He BZ, Miakotina OL, Eberl DF <sup><i class="small fa fa-envelope"></i></sup>.
 year: 2026
 ref: Young et al. 2026
