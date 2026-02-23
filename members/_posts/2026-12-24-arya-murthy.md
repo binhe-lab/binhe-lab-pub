@@ -1,11 +1,11 @@
 ---
 layout: member
 title: 
-name: Arya Murphy
-lastname: Murphy
+name: Arya Murthy
+lastname: Murthy
 position: Graduate Student (PhD)
-email: arya-murphy@uiowa.edu
-image: /images/team/arya-murphy-1.jpg
+email: arya-murthy@uiowa.edu
+image: /images/team/arya-murthy-1.jpg
 start: 2026.01
 cv:
 scholar:

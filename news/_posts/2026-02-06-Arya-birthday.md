@@ -7,4 +7,4 @@ image:
 imgalt: 
 ---
 
-Welcome to [Arya Murphy](https://www.binhe-lab.org/members/arya-murphy), who joined our lab as a PhD student in the Integrated Biology Graduate (iBio) program. We also celebrated his birthday with a cake from the New-Pi CO-OP today. Forgot to take a picture. Warm welcome!
+Welcome to [Arya Murthy](https://www.binhe-lab.org/members/arya-murthy), who joined our lab as a PhD student in the Integrated Biology Graduate (iBio) program. We also celebrated his birthday with a cake from the New-Pi CO-OP today. Forgot to take a picture. Warm welcome!
