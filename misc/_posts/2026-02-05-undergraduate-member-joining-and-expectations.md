@@ -12,6 +12,9 @@ Department of Biology, the University of Iowa
 
 *Updated: February 2026*
 
+* TOC
+{:toc}
+
 ## 1\. Purpose and Overview
 
 Welcome to the Gene Regulatory Evolution (GRE) Lab\! Undergraduate research is a valuable part of your scientific training. The goal of this document is to set clear expectations for both the students and the PI so that everyone can have a productive, respectful, and rewarding experience in research. This document outlines the **process for joining the lab**, the **roles and responsibilities** of undergraduate student researchers, what students can **expect from the PI**, and additional guidelines for **research-for-credit courses**.
@@ -39,7 +42,7 @@ We welcome interested undergraduate students with foundational knowledge in gene
 * Read at least 2–3 papers related to ongoing lab projects  
 * Meet briefly with the PI (Bin) at the midpoint and end of the observation period
 
-### **What we’re looking for:**
+### What we’re looking for:
 
 * Genuine interest in our research area (e.g., fungal pathogens, transcriptional regulation, computational biology)  
 * Active engagement demonstrated through questions asked and papers read  
@@ -48,7 +51,7 @@ We welcome interested undergraduate students with foundational knowledge in gene
 
 After **4–6 weeks**, students who demonstrate sustained interest, find a suitable graduate student mentor, and are prepared for a defined project will discuss the possibility of transitioning into an official **Undergraduate Researcher** role with the PI.
 
-### **Selection Criteria**
+### Selection Criteria
 
 * Engagement in lab meetings (questions asked, papers read, initiative taken).  
 * Preparation, including lab skills (e.g., microbiology methods), basic statistics, and programming ability. Note that these preparations are not required but will be evaluated in conjunction with other factors.  
@@ -58,9 +61,9 @@ There are **limited positions**; not all applicants will be accepted.
 
 ## 4\. Expectations For Undergraduate Researchers
 
-### *4.1 Time Commitment*
+### 4.1 Time Commitment
 
-#### **Physical lab presence**
+#### Physical lab presence
 
 - Spend at least **two 3-hour blocks per week** physically in the lab (minimum 6 hours/week total).  
 - Schedule these times in coordination with your graduate student mentor and communicate them to the PI.  
@@ -71,7 +74,7 @@ There are **limited positions**; not all applicants will be accepted.
   - Analyze data and maintain lab notebooks  
   - Participate in lab training activities
 
-#### **Lab meetings**
+#### Lab meetings
 
 - Attend weekly lab meetings (approximately 1 hour).  
 - Actively participate in discussions by asking questions and offering insights.  
@@ -80,34 +83,34 @@ There are **limited positions**; not all applicants will be accepted.
   - Practice your presentation with your graduate student mentor beforehand.  
 - Read and be prepared to discuss assigned papers or topics.
 
-#### **Reading literature and join undergraduate journal clubs**
+#### Reading literature and join undergraduate journal clubs
 
 - Attend undergraduate-focused journal club sessions (led by senior undergrad members).  
 - Come prepared to discuss the assigned paper(s) in depth.  
 - Select and lead the discussion at least once.  
 - Read at least **5 primary research articles per semester** relevant to your project or broader lab research.
 
-#### **Communication about absences**
+#### Communication about absences
 
 - Conflicts with coursework that prevent lab meeting attendance must be communicated to the PI in advance.  
 - Frequent unannounced absences from lab meetings or other signs of disengagement may result in termination of your position.
 
-#### **Time management**
+#### Time management
 
 - We understand that your classes come first, and we will work with you to ensure your lab schedule does not interfere with your academic success. While your coursework takes priority, timely and clear communication with your mentors is essential.  
 - You must demonstrate the ability to balance both commitments effectively.  
 - If you are struggling to meet lab expectations due to coursework, communicate early so we can discuss solutions.
 
-### *4.2 Lab Responsibilities*
+### 4.2 Lab Responsibilities
 
-#### **Lab jobs**
+#### Lab jobs
 
 - All lab members contribute to lab maintenance through assigned jobs.  
   - Examples include maintaining stock solutions, organizing shared equipment, monitoring inventory, cleaning shared spaces, or assisting with shared protocols.  
 - Take your assigned lab job seriously and complete tasks **promptly and thoroughly**.  
 - If you cannot complete a lab job due to absence or conflict, communicate with your mentor to arrange coverage.
 
-#### **Workspace organization**
+#### Workspace organization
 
 - Keep your bench and digital workspace organized and clearly labeled.  
 - If sharing bench space:  
@@ -117,7 +120,7 @@ There are **limited positions**; not all applicants will be accepted.
   - Do not leave experiments or materials unattended on shared benches overnight without labeling.  
 - Respect other lab members’ materials—never use someone else’s reagents without permission.
 
-#### **Equipment and reagents**
+#### Equipment and reagents
 
 - Treat all lab equipment with care and report any malfunctions immediately.  
 - Return equipment to its proper location after use.  
@@ -125,7 +128,7 @@ There are **limited positions**; not all applicants will be accepted.
 - Do not use equipment you have not been trained on.  
 - Keep track of reagents you use and alert the lab manager or your mentor when supplies are running low.
 
-#### **Laboratory safety and compliance**
+#### Laboratory safety and compliance
 
 - Complete all required safety training within 30 days of joining the lab.  
 - Follow all biosafety protocols for working with microorganisms.  
@@ -133,9 +136,9 @@ There are **limited positions**; not all applicants will be accepted.
 - Know the location of safety equipment (eyewash, fire extinguisher, spill kits, first aid).  
 - Report any safety concerns or incidents to your mentor and the PI immediately.
 
-### *4.3 Communication & Progress*
+### 4.3 Communication & Progress
 
-#### **Regular communication with mentors**
+#### Regular communication with mentors
 
 - Keep your graduate student mentor updated on research progress through regular communication.  
 - Schedule weekly or bi-weekly meetings with your mentor to discuss:  
@@ -145,7 +148,7 @@ There are **limited positions**; not all applicants will be accepted.
   - Your learning goals  
 - Seek periodic meetings with the PI, e.g., mid-semester and end-of-semester at least.
 
-#### **Lab notebooks**
+#### Lab notebooks
 
 - Maintain both a **physical lab notebook** and an **electronic lab notebook (ELN)**. Use this [template for ELN](https://docs.google.com/document/u/0/d/1a6Tkn3OiEkdJwF_7TdPpspGLnpUrBnXI4-G69SRvFhI/edit).  
 - Lab notebooks must be:  
@@ -162,27 +165,27 @@ There are **limited positions**; not all applicants will be accepted.
   - Do not remove pages from physical notebooks.  
 - Both notebooks are shared with the PI and are property of the lab. You may reference them for your own learning, but original notebooks remain with the lab when you leave.
 
-#### **Presenting your work**
+#### Presenting your work
 
 - Present your research progress at least twice per semester in lab meetings.  
 - Consider presenting at undergraduate research symposia or conferences when your project reaches an appropriate stage, in consultation with your mentor and the PI.
 
-### *4.4 Research Ethics And Integrity*
+### 4.4 Research Ethics And Integrity
 
 All lab members are expected to uphold the highest standards of research integrity.
 
-#### **Honesty in research**
+#### Honesty in research
 
 - Record all data accurately, including failed experiments and unexpected results.  
 - Never fabricate, falsify, or plagiarize data or ideas.  
 - Report mistakes promptly.
 
-#### **Data management**
+#### Data management
 
 - Maintain clear, complete, and organized records in lab notebooks and digital files.  
 - Store and back up electronic data according to lab guidelines.
 
-#### **Intellectual property**
+#### Intellectual property
 
 - Give appropriate credit for ideas and contributions.  
 - Understand that data generated in the lab belong to the lab and university.  
@@ -190,9 +193,9 @@ All lab members are expected to uphold the highest standards of research integri
 
 If you suspect research misconduct, speak with the PI, your mentor, the department chair, or the university’s research integrity office.
 
-### *4.5 Requests for Letters & Editing of Drafts*
+### 4.5 Requests for Letters & Editing of Drafts
 
-#### **Letters of recommendation**
+#### Letters of recommendation
 
 - Request letters of recommendation **7–10 days in advance** from your graduate student mentor or the PI.  
 - Obtain verbal agreement before listing someone as a reference.  
@@ -203,28 +206,28 @@ If you suspect research misconduct, speak with the PI, your mentor, the departme
   - Submission instructions  
 - The PI will communicate honestly if he feels he does not have sufficient information to write a strong letter; you can use this feedback to decide whether to proceed with the request.
 
-#### **Applications, fellowships, and research-related writing**
+#### Applications, fellowships, and research-related writing
 
 - Any applications for fellowships, awards, or professional school that involve writing about research conducted in this lab must be approved by the PI.  
 - Expect 2–3 rounds of revision with your mentor and 1–2 rounds with the PI.  
 - Plan to start at least two weeks before the deadline for short documents or 4–6 weeks for longer ones. Honors thesis requires an even longer span typically.  
 - This process is both to ensure accuracy in describing the lab’s research and to help you build strong scientific writing skills.
 
-### *4.6 Additional Expectations For Students Taking Research For Credit*
+### 4.6 Additional Expectations For Students Taking Research For Credit
 
 For undergraduate researchers enrolled in research courses to receive academic credit:
 
-#### **Prior approval**
+#### Prior approval
 
 - Inform the PI and obtain approval **before** signing up for research credit.  
 - Discuss whether the timing and workload are appropriate given your project and other commitments.
 
-#### **Credit hours and time commitment**
+#### Credit hours and time commitment
 
 - **1 semester hour (s.h.) \= 3 hours/week** of work in the lab. Example: 3 s.h. \= 9 hrs/wk  
 - Time includes regular lab hours, completing lab jobs, and attending lab meetings.
 
-#### **Grading criteria**
+#### Grading criteria
 
 - Grading criteria will be discussed and agreed upon at the beginning of the semester.  
 - Typical elements:  
@@ -234,12 +237,12 @@ For undergraduate researchers enrolled in research courses to receive academic c
   - Research presentation(s)  
   - Written research report or proposal, depending on credit load and project stage
 
-#### **Mid-term and final evaluations**
+#### Mid-term and final evaluations
 
 - A mid-term meeting with the PI will evaluate progress and grade trajectory.  
 - A final meeting with the PI will determine the final grade, with input from your graduate student mentor.
 
-#### **Final presentation and/or report**
+#### Final presentation and/or report
 
 - A final oral presentation (15–20 minutes) in one-on-one or lab meetings and/or a written research report is expected.  
 - A typical report includes:  
@@ -250,9 +253,9 @@ For undergraduate researchers enrolled in research courses to receive academic c
   - References  
 - Specific format and length will be set at the beginning of the semester.
 
-## 5\. What Students Can Expect From The PI**
+## 5\. What Students Can Expect From The PI
 
-### *From the Principal Investigator (Bin)*
+### From the Principal Investigator (Bin)
 
 **Availability and mentorship**
 
@@ -285,7 +288,7 @@ For undergraduate researchers enrolled in research courses to receive academic c
 - Effort to foster a respectful, inclusive, and intellectually stimulating lab culture.  
 - Ensuring access to necessary resources and training.
 
-### *From Your Graduate Student Mentor*
+### From Your Graduate Student Mentor
 
 - Day-to-day training in laboratory techniques and research methods.  
 - Regular meetings (weekly or bi-weekly) to discuss your project.  
@@ -293,9 +296,9 @@ For undergraduate researchers enrolled in research courses to receive academic c
 - Feedback on notebooks, presentations, and writing.  
 - Advocacy for you within the lab and communication with the PI about your progress.
 
-### *From the lab and institution*
+### From the lab and institution
 
-#### **Professional Development Opportunities**
+#### Professional Development Opportunities
 
 The lab encourages you to pursue:
 
@@ -305,13 +308,13 @@ The lab encourages you to pursue:
 - Honors theses based on your lab work (with appropriate planning and commitment).  
 - Publications when contributions and project stage warrant authorship.
 
-#### **Authorship on publications**
+#### Authorship on publications
 
 - Undergraduates who make substantial contributions to a project may be included as co-authors on publications.  
 - Typically, this means the student is involved in all or most of the design, execution of the experiments, analysis and interpretation of the data, and writing and revision of the manuscript.  
 - Authorship expectations and author order should be discussed early in the project and revisited as the project evolves.
 
-#### **Caring For Your Mental Health And Well-Being**
+#### Caring For Your Mental Health And Well-Being
 
 Your well-being matters.
 
@@ -324,25 +327,25 @@ Your well-being matters.
 
 When you complete your time in the lab (graduation, semester end, or transition):
 
-### **Complete your work**
+### Complete your work
 
 - Bring ongoing experiments to a logical stopping point.  
 - Ensure lab notebooks are complete and up to date.  
 - Organize samples and clearly label anything that remains.
 
-### **Transfer knowledge**
+### Transfer knowledge
 
 - Meet with your mentor to review project status.  
 - If someone will continue your project, walk them through key protocols and data.  
 - Organize digital files so that others can access them.
 
-### **Clean your space**
+### Clean your space
 
 - Clean and reset your bench.  
 - Dispose of waste appropriately.  
 - Return shared equipment and materials.
 
-### **Exit meeting**
+### Exit meeting
 
 - Meet with the PI to:  
   - Go over all the above.  
@@ -350,7 +353,7 @@ When you complete your time in the lab (graduation, semester end, or transition)
   - Provide feedback on the undergraduate research program.  
   - Discuss future plans and continued support (e.g., letters).
 
-### **Stay in touch**
+### Stay in touch
 
 - Update the PI and your mentor about your future steps.  
 - Reach out for advice or letters when needed.
