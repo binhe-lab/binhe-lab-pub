@@ -10,7 +10,7 @@ pdf: /pdfs/papers/Young-Craven-MicroPub-Biol-2026.pdf
 supplement: 
 preprint: 
 doi: 10.17912/micropub.biology.001927
-pmid: 
+pmid: 41660195
 github: 
 category: 
 ---
