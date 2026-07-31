@@ -7,10 +7,10 @@ position: Undergraduate researcher
 handle:
 email: caden-deleon@uiowa.edu
 image: /images/team/caden-deleon.jpg
-alumni: False
+alumni: True
 start: 2025.01
-finish: 
-current_position: 
+finish: 2026.05
+current_position: working in Des Moines area
 cv:
 scholar:
 github:

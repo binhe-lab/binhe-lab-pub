@@ -7,10 +7,10 @@ position: Undergraduate researcher
 handle:
 email: scdallal@uiowa.edu
 image: /images/team/sophia-dallal.png
-alumni: False
+alumni: True
 start: 2025.06
-finish: 
-current_position: 
+finish: 2026.05
+current_position: completing BME degree
 cv:
 scholar:
 github:
