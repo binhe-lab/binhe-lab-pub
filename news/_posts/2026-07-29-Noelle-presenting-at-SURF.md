@@ -1,7 +1,7 @@
 ---
 layout: news
 title: 2026 Undergraduate student got summer research fellowship
-permalink: /news/2026-Noelle-OUR-fellowship
+permalink: /news/2026-Noelle-present-at-SURF
 author: Bin
 image: /images/news/2026-07-29-Noelle-SURF-1.jpg
 imgalt: /images/news/2026-07-29-Noelle-SURF-2.jpg
