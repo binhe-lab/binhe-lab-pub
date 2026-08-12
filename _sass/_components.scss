@@ -123,6 +123,21 @@ blockquote {
 	min-width: 300px;
 }
 
+@media (max-width: 340px) {
+	.titlebox {
+		min-width: 0;
+	}
+
+	.media > .pull-left.media-object {
+		float: none !important;
+		margin: 0 auto 15px;
+	}
+
+	.media-body.titlebox {
+		width: auto;
+	}
+}
+
 .handlebox {
 	height: 20px;
 	display: table-cell;
