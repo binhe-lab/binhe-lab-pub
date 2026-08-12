@@ -46,7 +46,7 @@
 <body>
 
   <!-- use navbar-inverse bg-inverse to color the background 15 sep 2017 -->
-  <nav class="navbar navbar-inverse navbar-static-top bg-inverse" role="navigation">
+  <nav class="navbar navbar-inverse navbar-static-top bg-inverse" role="navigation" aria-label="Primary navigation">
   <div class="container">
     <!-- Brand name, brand logo and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -56,7 +56,7 @@
         <a href="/"><img class="navbar-brand-logo" src="/images/logo.png" /></a>
       {% endif %}
       </div> -->
-      <button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target="#navbar-menu-collapse">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu-collapse" aria-controls="navbar-menu-collapse" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -68,21 +68,21 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-menu-collapse">
       <ul class="nav navbar-nav navbar-right text-right">
-				<!--{% if page.categories.first == 'home' %} <li class="active"> {% else %} <li> {% endif %}
-				<a href="/">Home</a></li>-->
-			  {% if page.categories.first == 'research' %} <li class="active"> {% else %} <li> {% endif %}
-        <a href="/research/">Research</a></li>
-        {% if page.categories.first == 'papers' %} <li class="active"> {% else %} <li> {% endif %}
-        <a href="/papers/">Papers</a></li>
-        {% if page.categories.first == 'members' %} <li class="active"> {% else %} <li> {% endif %}
-        <a href="/members/">Team / Join</a></li>
-        {% if page.categories.first == 'news' %} <li class="active"> {% else %} <li> {% endif %}
-        <a href="/news/">News</a></li>
-			  {% if page.categories.first == 'links' %} <li class="active"> {% else %} <li> {% endif %}
-				<a href="/misc/links">Links</a></li>
-				<!--
-        {% if page.categories.first == 'contact' %} <li class="active"> {% else %} <li> {% endif %}
-						<a href="/contact/">Contact</a></li> -->
+        <li{% if page.categories.first == 'research' %} class="active"{% endif %}>
+          <a href="/research/"{% if page.categories.first == 'research' %} aria-current="page"{% endif %}>Research</a>
+        </li>
+        <li{% if page.categories.first == 'papers' %} class="active"{% endif %}>
+          <a href="/papers/"{% if page.categories.first == 'papers' %} aria-current="page"{% endif %}>Papers</a>
+        </li>
+        <li{% if page.categories.first == 'members' %} class="active"{% endif %}>
+          <a href="/members/"{% if page.categories.first == 'members' %} aria-current="page"{% endif %}>Team / Join</a>
+        </li>
+        <li{% if page.categories.first == 'news' %} class="active"{% endif %}>
+          <a href="/news/"{% if page.categories.first == 'news' %} aria-current="page"{% endif %}>News</a>
+        </li>
+        <li{% if page.categories.first == 'links' %} class="active"{% endif %}>
+          <a href="/misc/links/"{% if page.categories.first == 'links' %} aria-current="page"{% endif %}>Links</a>
+        </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   <!-- </div> /.col-md-10 --> 
@@ -93,56 +93,11 @@
     {{ content }}
   </div>
 
-  <!-- footer -->
-  <!-- Rasi's version, not in use
-  <div class="hugespacer"></div>
-  <div class="hugespacer"></div>
-  <nav class="navbar navbar-static-bottom" role="navigation">
-    <div class="container">
-      <div class="navbar-brand-centered footer">Design based on <a href="http://bedford.io" class="off">bedford.io</a> and <a href="http://rasilab.org" class="off">rasilab.org</a></br><a href="/about/">More about this site</a></div>
-    </div>
-  </nav>
-  -->
-
 	<div class="hugespacer"></div>
   <footer class="footer">
     <div class="container">
-      <span class="text-muted;">Powered by <a href="https://jekyllrb.com/" class="off">Jekyll</a> / Licensed by <a href="https://opensource.org/licenses/MIT" class="off">MIT</a> / More <a href="/misc/about" class="off">About</a> this site.</span>
-
-			<!-- not in use 28 nov 2017
-			<span style="float:right;">
-				<div id="social">
-					<ul class="social-icon">
-
-						<li>
-							<a itemprop="sameAs" href="mailto:binhe@princeton.edu" target="_blank">
-								<i class="fa fa-envelope fa-2x"></i>
-							</a>
-						</li>
-
-						<li>
-							<a itemprop="sameAs" href="https://binhe.org" target="_blank">
-								<i class="fa fa-wordpress fa-2x"></i>
-							</a>
-						</li>
-
-						<li>
-							<a itemprop="sameAs" href="https://scholar.google.co.uk/citations?user=UgChk1QAAAAJ&amp;hl=en" target="_blank">
-								<i class="ai ai-google-scholar ai-2x"></i>
-							</a>
-						</li>
-
-						<li>
-							<a itemprop="sameAs" href="https://github.com/hezhaobin/" target="_blank">
-								<i class="fa fa-github fa-2x"></i>
-							</a>
-						</li>
-
-					</ul>
-				</div>
-			</span>
-		</div>
-	</footer>
-			-->
-</body>
+      <span class="text-muted">Powered by <a href="https://jekyllrb.com/" class="off">Jekyll</a> / Licensed by <a href="https://opensource.org/licenses/MIT" class="off">MIT</a> / More <a href="/misc/about" class="off">About</a> this site.</span>
+    </div>
+  </footer>
+	</body>
 </html>

@@ -1,6 +1,6 @@
 name: Gene Regulatory Evolution Lab Research
 description: Science updates on evolution of gene regulatory networks and stress response from the He lab at U of Iowa
-url: https://binhe-lab.netlify.com
+url: https://www.binhe-lab.org
 
 #highlighter: rouge
 #kramdown:
@@ -28,6 +28,18 @@ future: true
 # paginate_category: "news"
 
 exclude:
+  - vendor
+  - README.md
+  - css/bootstrap
+  - css/font-awesome
+  - css/font
+  - css/style.less
+  - css/style-less-20180414
+  - css/not-in-use-less.bk
+  - css/bootstrap-solarized-dark.less
+  - css/bootstrap-solarized-light.less
+  - css/katex.less
+  - css/solarized.less
   - "*.branches"
   - "*.kml"
   - "*.log"
@@ -49,5 +61,3 @@ exclude:
   - "*.nex"
   - "Gemfile"
   - "Gemfile.lock"
-
-exclude: [vendor]

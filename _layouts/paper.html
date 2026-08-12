@@ -8,17 +8,16 @@ layout: default
 	<div class="col-md-12">
 		<div class="media">
 			{% if page.image %}
-			<img width=240, class="pull-left pad-right media-object" src="{{ page.image }}">
+				<img width="240" class="pull-left pad-right media-object" src="{{ page.image }}">
 			{% endif %}
 			<div class="media-body titlebox">
 				<div class="title media-heading">
 					{{ page.title }}
 				</div>
-				<p>
-				<div class="smallhead">
-					{{ page.authors }}
-					&nbsp({{ page.year }})&nbsp
-					{{ page.journal }}&nbsp
+					<div class="smallhead">
+						{{ page.authors }}
+						&nbsp;({{ page.year }})&nbsp;
+						{{ page.journal }}&nbsp;
 					PMID: {{ page.pmid }}
 				</div>
 			</div>
