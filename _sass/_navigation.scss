@@ -1,0 +1,169 @@
+@use "variables" as *;
+
+/* navbar-brand customization */
+/* borrowed from Hugo-Academic, 19 sep 2017 */
+
+// Let Bootstrap handle navbar-inverse styling - removed explicit overrides to test
+
+/* end borrow */
+
+// change navbar font size and padding to match taller navbar
+// ref: https://colorlib.com/wp/forums/topic/font-size-and-font-weight-of-menu-items/
+.navbar-nav > li > a {
+	font-size: 1.05rem;
+	font-weight: 300; /* Increased from 100 to match live site */
+	padding-top: 0px;
+	padding-bottom: 0px;
+        line-height: $navbar-height; // Match navbar line height
+}
+
+.navbar-toggle {
+	background-color: #191919;
+	border: 2px solid #000;
+	// Vertically center the toggle button in taller navbar
+	// Override Bootstrap's default margins completely
+	margin-top: calc(($navbar-height - 34px) / 2) !important; // 34px is default toggle button height
+	margin-bottom: calc(($navbar-height - 34px) / 2) !important;
+	margin-right: 15px; // Keep Bootstrap's right margin for spacing from edge
+}
+
+.navbar-brand-text {
+	// Use Bootstrap's navbar-brand base styles for proper alignment with taller navbar
+	//display: block;
+	padding-top: 0px; // Match the taller navbar padding
+	padding-bottom: 0px; // Match the taller navbar padding
+        padding-left: 15px;
+	font-size: 1.1rem;
+	font-weight: bold;
+	color: #ffcc00;
+	line-height: $navbar-height; // Match navbar line height
+	white-space: nowrap;
+}
+
+a.navbar-brand-text:hover,
+a.navbar-brand-text:focus {
+	color: #ffdd00;
+	text-decoration: underline;
+}
+
+.navbar-brand-centered {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80%;
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    //margin-left: -125px;
+}
+
+/* Adaptive text size and margin below navbar for phones*/
+
+/* decrease padding as screen size shrinks */
+@media (min-width: $screen-desktop) and (max-width: $screen-lg-desktop) {
+	.container {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+// Custom navbar collapse at 992px instead of Bootstrap's default 768px
+@media (max-width: 991px) {
+	.navbar-header {
+		float: none;
+	}
+
+	.navbar-right {
+		float: none !important;
+	}
+
+	.navbar-toggle {
+		display: block;
+	}
+
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+
+	.navbar-collapse.collapse {
+		display: none !important;
+	}
+
+	.navbar-collapse.collapse.in {
+		display: block !important;
+		overflow-y: auto;
+	}
+
+	.navbar-nav {
+		float: none !important;
+		margin: 7.5px -15px;
+	}
+
+	.navbar-nav > li {
+		float: none;
+	}
+
+	.navbar-nav > li > a {
+		height: auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		line-height: 1.5;
+	}
+
+	.collapsing {
+		overflow: hidden !important;
+	}
+}
+
+// Hide toggle button on larger screens
+@media (min-width: 992px) {
+	.navbar-toggle {
+		display: none;
+	}
+	.navbar-collapse.collapse {
+		display: block!important;
+		height: auto!important;
+		padding-bottom: 0;
+		overflow: visible!important;
+	}
+}
+
+@media (max-width: 340px) {
+	.navbar-brand-text {
+		font-size: .875rem;
+	}
+}
+
+@media (min-width: $screen-tablet) and (max-width: $screen-desktop) {
+	.container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+
+/* Adaptive text size and margin below navbar for phones*/
+
+@media all and (max-width: $screen-tablet) {
+	h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
+	.smallhead, .note, .papertitle, body {
+			font-size: 95%;
+	}
+	.author{
+		font-size: 0.8rem;
+		padding-bottom: 0;
+	}
+	.title {
+		font-size: 110%;
+		line-height: 30px;
+	}
+	h1, .h1 {
+		font-weight: 700;
+	}
+	h4, .h4 {
+		font-style: italic;
+	}
+	.container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
