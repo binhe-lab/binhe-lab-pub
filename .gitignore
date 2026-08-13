@@ -22,7 +22,6 @@ vendor/
 .DS_Store
 
 # Ruby
-.ruby-version
 
 # Claude Code documentation
 CLAUDE.local.md
