@@ -5,69 +5,58 @@ categories:
 - home
 ---
 
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
-  <div class="col-xs-12 col-md-4">
+<div class="row home-intro-row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
+  <div class="col-xs-12 col-md-8 home-intro" itemprop="description">
+    <div class="bigspacer"></div>
+    <h2 id="evolution-of-stress-response">Evolution of Stress Response</h2>
+
+    <p>Our lab is broadly interested in the evolution of gene regulation. An astounding discovery from sequencing genomes is how organisms as different as human and fly, or even yeast, share a significant amount of their genes. This suggests, and has been experimentally shown that, changes in how genes are regulated are a major contributor to phenotypic evolution and adaptation. We study gene regulatory evolution in the context of stress response. Essential for survival, stress response must adapt as species evolve and encounter new challenges. So far this has been understudied and should deserve our attention both for basic understanding of the evolutionary principals, and also for disease and health purposes. One such example is the adaptation of commensal yeast species to the human host, an environment that poses very different stress profiles from what is experienced by their free-living relatives. <a class="home-research-link" href="/research/">Learn more about our research &rarr;</a></p>
+
+    <section class="home-news" aria-labelledby="latest-news-heading">
+      <h2 id="latest-news-heading">Latest news</h2>
+      <ul class="home-news-list">
+        {% for post in site.categories.news limit: 2 %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+        </li>
+        {% endfor %}
+      </ul>
+      <a class="home-news-all" href="/news/">View all news &rarr;</a>
+    </section>
+  </div>
+
+  <div class="col-xs-12 col-md-4 home-profile">
     <div id="profile">
       <div class="portrait" style="background-image: url('/images/portrait-2025.png');"></div>
       <meta itemprop="image" content="/images/portrait.png">
 
       <div class="portrait-title">
         <h2 itemprop="name">
-					<a class="off" href="https://biology.uiowa.edu/people/bin-z-he" target="_blank" itemprop="url">
-						<span itemprop="name">Bin Z. He</span>
-					</a>
-				</h2>
+          <a class="off" href="https://biology.uiowa.edu/people/bin-z-he" target="_blank" itemprop="url">
+            <span itemprop="name">Bin Z. He</span>
+          </a>
+        </h2>
         <h3 itemprop="jobTitle">Biology Department</h3>
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">University of Iowa </h3>
-				<h4>Contact</h4>
-			  <p>
-			  <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;
-					bin-he<span style="display:none">obfuscate</span>@uiowa.edu <br>
-					<i class="fa fa-map-marker" aria-hidden="true"></i>
-					450 Biology Building <br>
-					129 E. Jefferson St., <br>
-				Iowa City, IA 52242
-				</p> 
-				<ul class="list-inline">
-					<li class="footernav">
-						<i class="fa fa-angle-right"></i> <a class="off" href="https://github.com/binhe-lab">Github</a>
-						<i class="fa fa-angle-right"></i> <a class="off" href="https://evolutionontheway.wordpress.com/blog/">Blog</a>
-						<i class="fa fa-angle-right"></i> <a class="off" href="https://evolutionontheway.wordpress.com/teach/">Teach</a>
-						<i class="fa fa-angle-right"></i> <a class="off" href="https://evolutionontheway.wordpress.com/talks/">Talks</a>
-					</li>
-				</ul>
-			</div>
-
-			<!-- not in use 24 nov 2017, Bin He -->
-		</div>
-	</div> 
-
-  <div class="col-xs-12 col-md-8" itemprop="description">
-    
-    <div class="bigspacer"></div>
-    <h2 id="evolution-of-stress-response">Evolution of Stress Response</h2>
-
-		<p> Our lab is broadly interested in the evolution of gene regulation. An astounding discovery from sequencing genomes is how organisms as different as human and fly, or even yeast, share a significant amount of their genes. This suggests, and has been experimentally shown that, changes in how genes are regulated are a major contributor to phenotypic evolution and adaptation. We study gene regulatory evolution in the context of stress response. Essential for survival, stress response must adapt as species evolve and encounter new challenges. So far this has been understudied and should deserve our attention both for basic understanding of the evolutionary principals, and also for disease and health purposes. One such example is the adaptation of commensal yeast species to the human host, an environment that poses very different stress profiles from what is experienced by their free-living relatives. To learn more about our research, click the button below.  </p>
-		<div class="spacer"></div><a class="btn btn-warning btn-lg" href="/research/" role="button">Learn more</a>
-
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">University of Iowa</h3>
+        <h4>Contact</h4>
+        <p>
+          <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;
+          bin-he<span style="display:none">obfuscate</span>@uiowa.edu <br>
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          450 Biology Building <br>
+          129 E. Jefferson St., <br>
+          Iowa City, IA 52242
+        </p>
+        <ul class="list-inline">
+          <li class="footernav">
+            <i class="fa fa-angle-right"></i> <a class="off" href="https://github.com/binhe-lab">Github</a>
+            <i class="fa fa-angle-right"></i> <a class="off" href="https://evolutionontheway.wordpress.com/blog/">Blog</a>
+            <i class="fa fa-angle-right"></i> <a class="off" href="https://evolutionontheway.wordpress.com/teach/">Teach</a>
+            <i class="fa fa-angle-right"></i> <a class="off" href="https://evolutionontheway.wordpress.com/talks/">Talks</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
-
-<!-- footer, from bedford.io
-<div class="spacer"></div>
-<div class="row">
-	<div class="col-md-12 reduced-gutter">
-		<div class="text-center">
-			<ul class="list-inline">
-				<li class="footernav">
-					<i class="fa fa-angle-right"></i> <a class="off" href="/about/">About this site</a>
-				</li>
-				<li class="footernav">
-					<i class="fa fa-angle-right"></i> <a class="off" href="http://biology.uiowa.edu/">UIowa</a>
-				</li>
-			</ul>
-		</div>
-		<div class="spacer"></div>
-	</div>
-</div>
--->

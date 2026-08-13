@@ -1,0 +1,72 @@
+@use "variables" as *;
+
+.home-intro-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-intro {
+  order: 1;
+}
+
+.home-profile {
+  order: 2;
+}
+
+.home-research-link {
+  font-weight: 700;
+}
+
+.home-news {
+  margin-top: 1.5rem;
+}
+
+.home-news h2 {
+  margin: 0 0 .5rem;
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+.home-news-list {
+  padding: 0;
+  margin: 0 0 .5rem;
+  list-style: none;
+}
+
+.home-news-list li {
+  margin-bottom: .35rem;
+  font-size: .9rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.home-news-list time {
+  margin-left: .4rem;
+  color: $gray-light;
+  font-size: .8rem;
+}
+
+.home-news-all {
+  font-size: .9rem;
+}
+
+@media (max-width: 480px) {
+  .home-news-list time {
+    display: block;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: $screen-desktop) {
+  .home-intro-row {
+    flex-direction: row;
+  }
+
+  .home-profile {
+    order: 1;
+  }
+
+  .home-intro {
+    order: 2;
+  }
+}
