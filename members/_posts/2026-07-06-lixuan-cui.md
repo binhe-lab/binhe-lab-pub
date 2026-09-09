@@ -7,7 +7,7 @@ position: Undergraduate researcher
 handle:
 email: 202311200062@mail.bnu.edu.cn
 image: /images/team/lixuan-cui.png
-alumni: False
+alumni: True
 start: 2026.07
 finish: 2026.09
 current_position: Undergraduate student at Beijing Normal University
