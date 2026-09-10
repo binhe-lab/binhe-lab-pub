@@ -27,13 +27,9 @@ categories:
 		</div>	
 	</div>
 	<div class="col-md-8 reduce-clutter">		
-		{% if post.image %}
-		  {% if post.imgalt %}
-			  <a href="{{ post.url }}"><img class="float: right; padding-left: 10px; offset " src="{{ post.image }}" onmouseover="this.src='{{ post.imgalt }}';" onmouseout="this.src='{{ post.image }}';" width = "350"></a>
-		  {% else %}
-			  <a href="{{ post.url }}"><img class="float: right; padding-left: 10px; offset " src="{{ post.image }}" width = "350"></a>
-		  {% endif %}
-		{% endif %}
+		<div class="news-index-images">
+		  {% include news-images.html item=post %}
+		</div>
 		<div class="newsbody">
 			{{ post.excerpt }}
 		</div>
@@ -42,3 +38,5 @@ categories:
 </div>		
 
 {% endfor %}
+
+<script src="/js/news-image-switcher.js" defer></script>

@@ -4,7 +4,9 @@ title: 2024 Jinye successfully defended her PhD thesis
 permalink: /news/2024-Jinye-defense
 author: Bin
 image: /images/news/2024-07-11-jinye-defense-1.jpg
-imgalt: /images/news/2024-07-11-jinye-defense-2.jpg
+image_alt: "Jinye Liang celebrating her successful PhD thesis defense"
+image_secondary: /images/news/2024-07-11-jinye-defense-2.jpg
+image_secondary_alt: "A second photo from Jinye Liang's PhD thesis defense celebration"
 ---
 
 Congratulations to [Jinye](https://www.binhe-lab.org/members/jinye-liang/), who successfully defended her PhD thesis titled "Evolution of Acquired Stress Resistance in an Opportunistic Yeast Pathogen"

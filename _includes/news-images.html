@@ -1,0 +1,20 @@
+{% assign news_item = include.item %}
+{% if news_item.image %}
+<div class="news-images{% unless news_item.image_secondary %} news-images--single{% endunless %}"{% if news_item.image_secondary %} data-image-switcher data-image-index="0" role="group" aria-label="Two photographs for {{ news_item.title | escape }}"{% endif %}>
+  <div class="news-images__viewport">
+    <div class="news-images__track"{% if news_item.image_secondary %} tabindex="0"{% endif %}>
+      <img class="news-images__slide news-images__slide--primary" src="{{ news_item.image | escape }}" alt="{{ news_item.image_alt | default: news_item.title | escape }}">
+      {% if news_item.image_secondary %}
+      <img class="news-images__slide news-images__slide--secondary" src="{{ news_item.image_secondary | escape }}" alt="{% if news_item.image_secondary_alt %}{{ news_item.image_secondary_alt | escape }}{% else %}Additional photo for {{ news_item.title | escape }}{% endif %}">
+      {% endif %}
+    </div>
+  </div>
+
+  {% if news_item.image_secondary %}
+  <div class="news-images__controls" aria-label="Choose photograph">
+    <button class="news-images__dot" type="button" data-image-dot="0" aria-label="Show photograph 1 of 2" aria-current="true"></button>
+    <button class="news-images__dot" type="button" data-image-dot="1" aria-label="Show photograph 2 of 2" aria-current="false"></button>
+  </div>
+  {% endif %}
+</div>
+{% endif %}

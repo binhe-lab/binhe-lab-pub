@@ -4,7 +4,9 @@ title: 2026 Emily successfully defended her MS thesis
 permalink: /news/2026-Emily-defense
 author: Bin
 image: /images/news/2026-04-12-emily-defense-1.jpg
-imgalt: /images/news/2026-04-12-emily-defense-2.jpg
+image_alt: "Emily O'Brien celebrating her successful MS thesis defense"
+image_secondary: /images/news/2026-04-12-emily-defense-2.jpg
+image_secondary_alt: "A second photo from Emily O'Brien's MS thesis defense celebration"
 ---
 
 Congratulations to [Emily](https://www.binhe-lab.org/members/emily-m-obrien/), who successfully defended her MS thesis titled "_Investigating Physiological Diverence And Protein-Protein Interactions Within The Phosphate Starvation Response Of Budding Yeasts_".
@@ -14,4 +16,3 @@ Emily first joined the lab as an undergraduate researcher in 2020. She demonstra
 Congratulations again Emily! More pics!
 
 ![celebrate](/images/news/2026-04-12-emily-defense-3.jpg)
-

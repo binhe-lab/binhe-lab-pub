@@ -1,0 +1,123 @@
+.news-index-images {
+  float: right;
+  width: 350px;
+  max-width: 100%;
+  margin: 12px 0 10px 15px;
+}
+
+.news-article-images {
+  margin-bottom: 1.25rem;
+}
+
+.news-images__viewport {
+  overflow: visible;
+}
+
+.news-images__track {
+  display: block;
+}
+
+.news-images__slide {
+  width: 100%;
+}
+
+.news-images--enhanced .news-images__viewport {
+  overflow: hidden;
+}
+
+.news-images--enhanced .news-images__track {
+  display: flex;
+  transition: transform 200ms ease;
+  touch-action: pan-y;
+}
+
+.news-images--enhanced .news-images__slide {
+  flex: 0 0 100%;
+}
+
+.news-images--enhanced[data-image-index="1"] .news-images__track {
+  transform: translateX(-100%);
+}
+
+.news-images__controls {
+  display: none;
+  justify-content: center;
+  gap: .5rem;
+  margin-top: .6rem;
+}
+
+.news-images__dot {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.news-images__dot::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #63666a;
+  border-radius: 50%;
+  content: "";
+  transform: translate(-50%, -50%);
+}
+
+.news-images__dot[aria-current="true"]::before {
+  border-color: #000;
+  background: #000;
+}
+
+.news-images__dot:focus-visible {
+  outline: 2px solid #00558c;
+  outline-offset: 3px;
+}
+
+.news-images--enhanced .news-images__controls {
+  display: flex;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .news-images--enhanced .news-images__viewport {
+    overflow: visible;
+  }
+
+  .news-images--enhanced .news-images__track {
+    display: grid;
+    transform: none !important;
+  }
+
+  .news-images--enhanced .news-images__slide {
+    grid-area: 1 / 1;
+    transition: opacity 200ms ease;
+  }
+
+  .news-images__slide--secondary {
+    opacity: 0;
+  }
+
+  .news-images[data-image-switcher]:hover .news-images__slide--primary,
+  .news-images[data-image-switcher]:focus-within .news-images__slide--primary {
+    opacity: 0;
+  }
+
+  .news-images[data-image-switcher]:hover .news-images__slide--secondary,
+  .news-images[data-image-switcher]:focus-within .news-images__slide--secondary {
+    opacity: 1;
+  }
+
+  .news-images--enhanced .news-images__controls {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .news-images__track,
+  .news-images__slide {
+    transition: none;
+  }
+}

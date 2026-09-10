@@ -4,7 +4,9 @@ title: 2025 GRE Lab summer symposium
 permalink: /news/2025-summer-symposium
 author: Bin
 image: /images/news/2025-07-29-summer-symposium.jpg
-imgalt: /images/news/2025-07-31-volleyball.jpg
+image_alt: "GRE Lab students presenting research at the 2025 summer symposium"
+image_secondary: /images/news/2025-07-31-volleyball.jpg
+image_secondary_alt: "GRE Lab members playing sand volleyball"
 ---
 
 We decided to do a mini-symposium to conclude two months of hard work. We had a number of fantastic undergraduate students joining our regular crew of grad students. They include newly joined UI undergrad Sophia Dallal (profile coming soon) and our REU student [Katelyn Nguyen](https://www.binhe-lab.org/members/katelyn-nguyen), who came to us from UCSD. Click [here](https://www.binhe-lab.org/news/2025-summer-symposium] to read more ...

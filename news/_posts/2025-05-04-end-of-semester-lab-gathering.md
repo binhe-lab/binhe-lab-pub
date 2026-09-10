@@ -4,7 +4,9 @@ title: 2025 End-of-semester lab gathering
 permalink: /news/2025-end-of-semester-lab-gathering
 author: Bin
 image: /images/news/2025-05-04-end-of-semester-gathering.jpg
-imgalt: /images/news/2025-05-04-end-of-semester-gathering-2.jpg
+image_alt: "GRE Lab members at the 2025 end-of-semester gathering"
+image_secondary: /images/news/2025-05-04-end-of-semester-gathering-2.jpg
+image_secondary_alt: "A second group photo from the end-of-semester gathering"
 ---
 
 It's the end of the school year. Three of our wonderful undergraduate students are graduating this year. Enough reason for a gathering! We had a lot of fun eating brunch, playing volleyball and football (soccer).

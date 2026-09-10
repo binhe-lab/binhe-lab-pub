@@ -4,7 +4,9 @@ title: 2025 GRE lab 2025 summer posters
 permalink: /news/2025-summer-posters
 author: Bin
 image: /images/news/2025-07-30-summer-posters.jpg
-imgalt: /images/news/2025-08-22-MNID-Emily-Jess-poster.jpg
+image_alt: "Undergraduate GRE Lab members presenting their summer research posters"
+image_secondary: /images/news/2025-08-22-MNID-Emily-Jess-poster.jpg
+image_secondary_alt: "Emily and Jess presenting their research poster at the MNID meeting"
 ---
 
 Kudos to our awesome undergraduate students this summer: Arib, Sophia, Angel, Zaw, Katelyn and Frannie. [Arib](https://www.binhe-lab.org/members/arib-mahmud/) and [Katelyn](https://www.binhe-lab.org/members/katelyn-nguyen/) (REU student) presented their work at the Summer Undergraduate Research Conference at the University of Iowa, getting lots of attention and feedback from the audience. Read on to learn about the graduate student poster!
